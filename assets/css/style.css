@@ -95,7 +95,6 @@ header {
     height: 500px;
     width: 100%;
     overflow: hidden;
-    position: relative;
     display: inline-block;
 }
 
@@ -139,3 +138,25 @@ header {
     height: 400px;
 }
 
+/* easter sections */
+
+.easter {
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+
+#quote {
+    text-align: center;
+    float: left;
+    height: 500px;
+    width: 45%;
+    line-height: 1;
+}
+
+#easter-image {
+    background: url('../images/easter-photo.jpg');
+    float: right;
+    height: 500px;
+    width: 45%;
+}
