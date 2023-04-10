@@ -141,22 +141,6 @@ header {
     align-items: center;
 }
 
-/* easter sections */
-
-#easter {
-    height: 500px;
-    width: 100%;
-    position: relative;
-}
-
-#quote {
-    text-align: center;
-    float: left;
-    height: 500px;
-    width: 45%;
-    line-height: 1;
-}
-
 #overall-main {
     display: inline-block;
 }
