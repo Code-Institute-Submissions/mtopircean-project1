@@ -11,6 +11,23 @@
 body {
     font-family: 'Bitter', sans-serif;
     font-weight: 200;
-    color: #4d4b41;  
-    letter-spacing: 2px;
+    color: #4d4b41;
 }
+
+/* logo and menu */
+
+header {
+    padding: 20px;
+    display: inline;
+}
+
+#logo {
+    float: left;
+    font-size: 200%;
+    margin-left: 20px;
+}
+.menu {
+    float: right;
+    margin-right: 20px;
+}
+
