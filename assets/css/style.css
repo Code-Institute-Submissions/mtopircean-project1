@@ -17,17 +17,45 @@ body {
 /* logo and menu */
 
 header {
-    padding: 20px;
-    display: inline;
+    padding: 10px;
+    display: inline-block;
+    background-color: #475081;
+    width: 100%;
+    height: auto;
+    letter-spacing: 2px;
 }
 
 #logo {
     float: left;
     font-size: 200%;
     margin-left: 20px;
+    color: white;
 }
 .menu {
     float: right;
     margin-right: 20px;
+    text-transform: uppercase;
+}
+.menu li {
+    float: center;
+    display: inline-block;
+    padding-right: 20px;
+    font-size: x-large;
 }
 
+.menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#blue {
+    color: rgb(206, 206, 237);
+}
+
+#yellow {
+    color: rgb(251, 254, 239);
+}
+
+#red {
+    color: rgb(255, 227, 227);
+}
