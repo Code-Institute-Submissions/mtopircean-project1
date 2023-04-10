@@ -42,6 +42,7 @@ header {
     display: inline-block;
     padding-right: 20px;
     font-size: x-large;
+    font-weight: bold;
 }
 
 .menu a {
@@ -50,22 +51,22 @@ header {
 }
 
 #blue {
-    color: rgb(206, 206, 237);
+    color: rgb(109, 182, 241);
 }
 
 #yellow {
-    color: rgb(251, 254, 239);
+    color: rgb(253, 255, 111);
 }
 
 #red {
-    color: rgb(255, 227, 227);
+    color: rgb(251, 111, 111);
 }
 
 /* main section with banner and cover text */
 
 .main-section {
     position: relative;
-    height: 500px;
+    height: 700px;
     width: 100%;
     overflow: hidden;
 }
@@ -90,6 +91,11 @@ header {
 }
 
 /* schedule and events */
+
+#overall-main {
+    font-size: x-large;
+    padding: 80px;
+}
 
 #schedule-events {
     position: relative;
@@ -141,24 +147,15 @@ header {
     align-items: center;
 }
 
-/* easter sections */
-
-#easter {
-    height: 500px;
-    width: 100%;
-    position: relative;
-}
+/* quote */
 
 #quote {
+    position: relative;
     text-align: center;
-    float: left;
-    height: 500px;
-    width: 45%;
-    line-height: 1;
-}
-
-#overall-main {
-    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-style: italic;
 }
 
 /* footer styiling */
@@ -180,6 +177,10 @@ footer a {
     text-decoration: none;
     color: white;
     font-size: large;
+}
+
+footer li {
+    list-style-type: none;
 }
 
 /* about page */
