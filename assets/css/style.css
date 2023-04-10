@@ -1,0 +1,16 @@
+/* Import from Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Crimson+Text:wght@600&family=EB+Garamond&family=Lato:wght@300&family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Bitter', sans-serif;
+    font-weight: 200;
+    color: #4d4b41;  
+    letter-spacing: 2px;
+}
