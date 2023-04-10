@@ -12,6 +12,7 @@ body {
     font-family: 'Bitter', sans-serif;
     font-weight: 200;
     color: #4d4b41;
+
 }
 
 /* logo and menu */
@@ -90,19 +91,20 @@ header {
 
 /* schedule and events */
 
-.schedule-events {
+#schedule-events {
     position: relative;
     height: 500px;
     width: 100%;
     overflow: hidden;
-    display: inline-block;
 }
 
 #service {
     text-align: center;
-    width: 45%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 #service-table {
@@ -133,14 +135,15 @@ header {
     float: right;
     text-align: center;
     width: 45%;
-    padding: 20px;
     line-height: 2;
     height: 400px;
+    justify-content: center;
+    align-items: center;
 }
 
 /* easter sections */
 
-.easter {
+#easter {
     height: 500px;
     width: 100%;
     position: relative;
@@ -155,11 +158,16 @@ header {
 }
 
 #easter-image {
-    background: url('../images/easter-photo.jpg');
     float: right;
     height: 500px;
     width: 45%;
 }
+
+#overall-main {
+    display: inline-block;
+}
+
+/* footer styiling */
 
 footer {
     height: 50px;
