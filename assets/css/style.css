@@ -211,3 +211,31 @@ footer li {
     height: 1200px;
     border-radius: 10px;
 }
+
+/* contact page */
+
+    .form {
+        position: relative;
+        color: #286884;
+        margin-left: 20px;
+        width: 50%;
+        top: 30px;
+        left: 0;
+        font-size:inherit;
+    }
+
+    label {
+        margin: 20px;
+        display: inline-block;
+        width: 100%;
+        vertical-align: left;
+        font-size:150%
+    }
+
+    input {
+        display: inline-block;
+        background-color: whitesmoke;
+        width: 300px;
+        vertical-align: right;
+        font-size: 150%
+    }
