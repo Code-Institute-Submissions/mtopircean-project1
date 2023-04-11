@@ -266,3 +266,310 @@ footer li {
         float: right;
         text-align: right;
     }
+
+    /* media */
+
+    #timeline-data {
+        position: fixed;
+        border-right: #2f3c41 solid 4px;
+        padding: 40px 40px 100px 40px;
+        text-transform: uppercase;
+        line-height: 4;
+    }
+
+    #timeline-data a {
+        text-decoration: none;
+        color: inherit;
+        font-size: x-large;
+    }
+
+    #timeline-data li {
+        list-style-type: none;
+    }/* Import from Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Crimson+Text:wght@600&family=EB+Garamond&family=Lato:wght@300&family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Bitter', sans-serif;
+    font-weight: 200;
+    color: #4d4b41;
+
+}
+
+/* logo and menu */
+
+header {
+    padding: 10px;
+    display: inline-block;
+    background-color: #2f3c41;
+    width: 100%;
+    height: auto;
+    letter-spacing: 2px;
+}
+
+#logo {
+    float: left;
+    font-size: 200%;
+    margin-left: 20px;
+    color: white;
+}
+.menu {
+    float: right;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+.menu li {
+    text-align: center;
+    display: inline-block;
+    padding-right: 20px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#blue {
+    color: rgb(109, 182, 241);
+}
+
+#yellow {
+    color: rgb(253, 255, 111);
+}
+
+#red {
+    color: rgb(251, 111, 111);
+}
+
+/* main section with banner and cover text */
+
+.main-section {
+    position: relative;
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#main-image {
+    background: url('../images/front-page-main.jpg')no-repeat center center;
+    height: 100%;
+    width: 100%;
+}
+
+#main-text {
+    background-color:#47508156;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    height: 150px;
+    line-height: 200%;
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    padding: 2px;
+}
+
+/* schedule and events */
+
+#overall-main {
+    font-size: x-large;
+    padding: 80px;
+}
+
+#schedule-events {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#service {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#service-table {
+    float: left;
+    text-align: center;
+    width: 45%;
+    height: 400px;
+}
+
+#service-table table {
+    margin: 0 auto;
+}
+#service-table td {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #475081;
+
+}
+
+#service-table th {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #475081;
+
+}
+
+#events {
+    float: right;
+    text-align: center;
+    width: 45%;
+    line-height: 2;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* quote */
+
+#quote {
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-style: italic;
+}
+
+/* footer styiling */
+
+footer {
+    height: 50px;
+    text-align: center;
+    background-color: #2f3c41;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+/* about page */
+
+#about-section {
+    width: 100%;
+    height: auto;
+}
+
+#text-about {
+    float: left;
+    width: 50%;
+    height: auto;
+    padding:20px;
+    line-height: 2;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    font-size: x-large;
+}
+
+#about-image {
+    float: right;
+    padding: 20px;
+    background: url('../images/easter-photo.jpg') no-repeat center center;
+    background-size: cover;
+    width: 45%;
+    height: 1200px;
+    border-radius: 10px;
+}
+
+/* contact page */
+
+    .form {
+        position: relative;
+        margin-left: 20px;
+        width: 100%;
+        top: 30px;
+        left: 0;
+        font-size:inherit;
+    }
+
+    label {
+        margin: 20px;
+        display: inline-block;
+        width: 100%;
+        vertical-align: left;
+    }
+
+    input {
+        display: inline-block;
+        background-color: whitesmoke;
+        width: 300px;
+        vertical-align: right;
+    }
+
+    #form-input {
+        display: inline-block;
+    }
+
+    #form-text {
+        float: left;
+        width: 45%;
+    }
+
+    #form-radio {
+        float: right;
+        width: 45%; 
+    }
+
+    #maps {
+        display: inline-box;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    #map-kilkenny {
+        float: left;
+        text-align: left;
+    }
+
+    #map-waterford {
+        float: right;
+        text-align: right;
+    }
+
+    /* media */
+
+    #timeline-data {
+        position: fixed;
+        border-right: #2f3c41 solid 4px;
+        padding: 40px 40px 100px 40px;
+        text-transform: uppercase;
+        line-height: 4;
+    }
+
+    #timeline-data a {
+        text-decoration: none;
+        color: inherit;
+        font-size: x-large;
+    }
+
+    #timeline-data li {
+        list-style-type: none;
+    }
