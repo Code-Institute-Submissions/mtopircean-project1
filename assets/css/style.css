@@ -278,12 +278,15 @@ footer li {
         width: 10%;
         height: 80%;
         text-align: center;
+        background-color: rgba(160, 160, 160, 0.251);
+        font-weight: bold;
+        border-radius: 10px;
     }
 
     #timeline-data a {
         text-decoration: none;
         color: inherit;
-        font-size: x-large;
+        font-size: large;
     }
 
     #timeline-data li {
