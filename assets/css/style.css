@@ -276,11 +276,9 @@ footer li {
         text-transform: uppercase;
         line-height: 4;
         width: 10%;
-        height: 80%;
         text-align: center;
-        background-color: rgba(160, 160, 160, 0.251);
         font-weight: bold;
-        border-radius: 10px;
+        margin-top: 40px;
     }
 
     #timeline-data a {
@@ -291,3 +289,15 @@ footer li {
 
     #timeline-data li {
         list-style-type: none;
+
+    }
+
+    #all-video {
+        float: right;
+        width: 80%;
+    }
+
+    #all-video h2 {
+        text-align: left;
+        margin-bottom: 20px;
+    }
