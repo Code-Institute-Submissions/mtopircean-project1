@@ -316,3 +316,18 @@ input {
     font-family: inherit;
     text-align: left;
 }
+
+#about-media-text {
+    float:left;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    text-align: center;
+    line-height: 2;
+    font-size: large;
+
+}
+
+#about-media-text span {
+font-style: italic;
+}
