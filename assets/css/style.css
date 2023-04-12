@@ -32,11 +32,13 @@ header {
     margin-left: 20px;
     color: white;
 }
+
 .menu {
     float: right;
     margin-right: 20px;
     text-transform: uppercase;
 }
+
 .menu li {
     text-align: center;
     display: inline-block;
@@ -78,7 +80,7 @@ header {
 }
 
 #main-text {
-    background-color:#47508156;
+    background-color: #47508156;
     position: absolute;
     bottom: 20px;
     width: 100%;
@@ -123,6 +125,7 @@ header {
 #service-table table {
     margin: 0 auto;
 }
+
 #service-table td {
     padding: 20px;
     text-align: center;
@@ -194,7 +197,7 @@ footer li {
     float: left;
     width: 50%;
     height: auto;
-    padding:20px;
+    padding: 20px;
     line-height: 2;
     justify-content: center;
     text-align: center;
@@ -214,90 +217,90 @@ footer li {
 
 /* contact page */
 
-    .form {
-        position: relative;
-        margin-left: 20px;
-        width: 100%;
-        top: 30px;
-        left: 0;
-        font-size:inherit;
-    }
+.form {
+    position: relative;
+    margin-left: 20px;
+    width: 100%;
+    top: 30px;
+    left: 0;
+    font-size: inherit;
+}
 
-    label {
-        margin: 20px;
-        display: inline-block;
-        width: 100%;
-        vertical-align: left;
-    }
+label {
+    margin: 20px;
+    display: inline-block;
+    width: 100%;
+    vertical-align: left;
+}
 
-    input {
-        display: inline-block;
-        background-color: whitesmoke;
-        width: 300px;
-        vertical-align: right;
-    }
+input {
+    display: inline-block;
+    background-color: whitesmoke;
+    width: 300px;
+    vertical-align: right;
+}
 
-    #form-input {
-        display: inline-block;
-    }
+#form-input {
+    display: inline-block;
+}
 
-    #form-text {
-        float: left;
-        width: 45%;
-    }
+#form-text {
+    float: left;
+    width: 45%;
+}
 
-    #form-radio {
-        float: right;
-        width: 45%; 
-    }
+#form-radio {
+    float: right;
+    width: 45%;
+}
 
-    #maps {
-        display: inline-box;
-        width: 100%;
-        margin-top: 30px;
-    }
+#maps {
+    display: inline-box;
+    width: 100%;
+    margin-top: 30px;
+}
 
-    #map-kilkenny {
-        float: left;
-        text-align: left;
-    }
+#map-kilkenny {
+    float: left;
+    text-align: left;
+}
 
-    #map-waterford {
-        float: right;
-        text-align: right;
-    }
+#map-waterford {
+    float: right;
+    text-align: right;
+}
 
-    /* media */
+/* media */
 
-    #timeline-data {
-        position: fixed;
-        border-right: #2f3c41 solid 4px;
-        padding: 40px 40px 100px 40px;
-        text-transform: uppercase;
-        line-height: 4;
-        width: 10%;
-        text-align: center;
-        font-weight: bold;
-        margin-top: 40px;
-    }
+#timeline-data {
+    position: fixed;
+    border-right: #2f3c41 solid 4px;
+    padding: 40px 40px 100px 40px;
+    text-transform: uppercase;
+    line-height: 4;
+    width: 10%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+}
 
-    #timeline-data a {
-        text-decoration: none;
-        color: inherit;
-        font-size: large;
-    }
+#timeline-data a {
+    text-decoration: none;
+    color: inherit;
+    font-size: large;
+}
 
-    #timeline-data li {
-        list-style-type: none;
+#timeline-data li {
+    list-style-type: none;
 
-    }
+}
 
-    #all-video {
-        float: right;
-        width: 80%;
-    }
+#all-video {
+    float: right;
+    width: 80%;
+}
 
-    #all-video h2 {
-        text-align: left;
-        margin-bottom: 20px;
-    }
+#all-video h2 {
+    text-align: left;
+    margin-bottom: 20px;
+}
