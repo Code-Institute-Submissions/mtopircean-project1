@@ -18,7 +18,8 @@
     <header>
         <a id="logo">
             <a href="index.html">
-                <h1 id="logo"><i class="fa-solid fa-church" style="color: #ffffff;"></i> Romanian Orthodox Church Kilkenny and Waterford</h1>
+                <h1 id="logo"><i class="fa-solid fa-church" style="color: #ffffff;"></i> Romanian Orthodox Church
+                    Kilkenny and Waterford</h1>
             </a>
         </a>
         <nav class="menu">
@@ -37,63 +38,81 @@
                 </li>
         </nav>
     </header>
-    <section class="form">
-        <form method="post" action="...." class="signup-form"></form>
-        <h2>Sign up to receive updates on Service Schedule, Events and usefull articles:</h2>
-        <br>
-        <div div="form-input">
-            <div id="form-text">
-                <label for="fname">First name</label>
-                <input id="fname" name="first_name" type="text" class="text-input" required
-                    placeholder="Add your first name">
-                <br>
-                <label for="lname">Last name</label>
-                <input id="lname" name="last_name" type="text" class="text-input" required
-                    placeholder="Add your last name">
-                <br>
-                <label for="email">Email address</label>
-                <input id="email" name="email" type="text" class="text-input" required
-                    placeholder="Add your email address">
+    <div id="form-and-maps">
+        <section>
+            <div id="form-and-text">
+                <section>
+                    <div id="top-text">
+                        <h3>Sign up to receive updates on Service Schedule, Events and usefull articles:</h3>
+                        <br>
+                        <p>Sign up to our newsletter if you want to be notified on different events, our service
+                            schedule
+                            and whenever we publish new and usefull media to our website.
+                            <br>
+                            See you soon and God bless!
+                        <p>
+                    </div>
+                </section>
+                <section class="form">
+                    <form method="post" action="...." id="form-input"></form>
+                    <div>
+                        <h4>Please fill in your details:</h4>
+                        <br>
+                        <label for="fname">First name</label>
+                        <input id="fname" name="first_name" type="text" class="text-input" required
+                            placeholder="Add your first name" id="text-input">
+                        <br>
+                        <label for="lname">Last name</label>
+                        <input id="lname" name="last_name" type="text" class="text-input" required
+                            placeholder="Add your last name" id="text-input">
+                        <br>
+                        <label for="email">Email address</label>
+                        <input id="email" name="email" type="text" class="text-input" required
+                            placeholder="Add your email address" id="text-input">
+                        <br>
+                        <br>
+                        <h4>What do you want us to send you notifications on:</h4>
+                        <br>
+                        <label for="nevents">New events</label>
+                        <input id="nevents" type="checkbox" name="new_events" value="new-events">
+                        <br>
+                        <label for="sschedule">Service schedule</label>
+                        <input id="sschedule" type="checkbox" name="service_schedule" value="service-schedule" required>
+                        <br>
+                        <label for="news-media">News and Media</label>
+                        <input id="news-media" type="checkbox" name="news_media" value="news-media" required>
+                        <br>
+                        <label for="everything">Everything</label>
+                        <input id="everything" type="checkbox" name="everything" value="everything" required>
+                    </div>
+                    <input id="join-button" type="submit" value="Notify me!">
             </div>
-            <div id="form-radio">
-                <h3>What do you want us to send you notifications on:</h4>
-                    <br>
-                    <label for="nevents">New events</label>
-                    <input id="nevents" type="radio" name="new_events" value="new-events">
-                    <br>
-                    <label for="sschedule">Service schedule</label>
-                    <input id="sschedule" type="radio" name="service_schedule" value="service-schedule" required>
-                    <br>
-                    <label for="news-media">News and Media</label>
-                    <input id="news-media" type="radio" name="news_media" value="news-media" required>
-                    <br>
-                    <label for="everything">Everything</label>
-                    <input id="everything" type="radio" name="everything" value="everything" required>
-            </div>
-            <input id="join-button" type="submit" value="Notify me!">
-        </div>
-        <br>
-        <br>
-        <br>
+            <br>
+            <br>
+            <br>
             </form>
-    </section>
+        </section>
+        </section>
     <section>
         <div id="maps">
             <div id="map-kilkenny">
-                <h3>Our Kilkenny location:</h3>
+                <h3>Our Kilkenny location: James's St, Gardens, MP2V+X4 Kilkenny</h3>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2420.4178940875454!2d-7.259335384572017!3d52.65242903415939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485d3a7627d391bd%3A0x998b2dbcaacda000!2sSaint%20Mary&#39;s%20Roman%20Catholic%20Cathedral!5e0!3m2!1sen!2sie!4v1681133279146!5m2!1sen!2sie"
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div id="map-waterford">
-                <h3>Our Waterford location:</h3>
+                <h3>Our Waterford location: Church Rd, Lisduggan, 7V28+24 Waterford</h3>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2442.6324438385723!2d-7.134695399999999!3d52.2500595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4842c4165fd51195%3A0xfab5bdb023207062!2sLisduggan%20District%20Credit%20Union%20Limited!5e0!3m2!1sen!2sie!4v1681133456299!5m2!1sen!2sie"
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
+        </div>
+    </div>
+        </section>
     </section>
     <footer>
         <ul>
