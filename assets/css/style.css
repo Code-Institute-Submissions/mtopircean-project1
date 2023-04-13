@@ -251,7 +251,7 @@ footer li {
     float: right;
 }
 
-iframe {
+#google-map {
     width: 100%;
     height: 150%;
     margin-top: 20px;
