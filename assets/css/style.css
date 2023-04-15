@@ -316,7 +316,7 @@ footer li {
 #timeline-data {
     position: fixed;
     border-right: #2f3c41 solid 4px;
-    padding: 40px 40px 100px 40px;
+    padding: 20px 20px 100px 20px;
     text-transform: uppercase;
     line-height: 3;
     width: 10%;
@@ -328,7 +328,7 @@ footer li {
 #timeline-data a {
     text-decoration: none;
     color: inherit;
-    font-size: x-large;
+    font-size: 1rem;
 }
 
 #timeline-data li {
@@ -338,22 +338,22 @@ footer li {
 
 #all-video {
     float: right;
-    width: 80%;
+    width: 84%;
 }
 
 #all-video h2 {
     text-align: left;
-    margin-bottom: 30px;
-    ` margin-top: 30px;
-    font-size: x-large;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 1rem;
     text-transform: uppercase;
 }
 
 .media-text-description {
     width: 60%;
     float: right;
-    padding: 10px;
-    font-size: large;
+    padding: 20px;
+    font-size: 1rem;
     font-family: inherit;
     text-align: left;
 }
@@ -361,14 +361,10 @@ footer li {
 #about-media-text {
     float: left;
     width: 100%;
-    margin-top: 30px;
-    margin-bottom: 60px;
+    margin-top: 20px;
+    margin-bottom: 30px;
     text-align: center;
     line-height: 2;
-    font-size: large;
+    font-size: 1rem;
 
-}
-
-#about-media-text span {
-    font-style: italic;
 }
