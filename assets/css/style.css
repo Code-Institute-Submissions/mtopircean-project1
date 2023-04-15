@@ -20,14 +20,14 @@ body {
 header {
     padding: 10px;
     display: inline-block;
-    background-color: #2f3c41;
+    background-color: #fff;
     width: 100%;
     height: auto;
     letter-spacing: 2px;
 }
 
 #icon-logo {
-    color: white;
+    color: #4d4b41;
     float: left;
     line-height: 110%;
     margin-left: 20px;
@@ -38,7 +38,7 @@ header {
     float: left;
     font-size: 100%;
     margin-left: 20px;
-    color: white;
+    color: #4d4b41;
     text-align:left;
 }
 
@@ -52,7 +52,7 @@ header {
     text-align: center;
     display: inline-block;
     padding-right: 20px;
-    font-size: x-large;
+    font-size: large;
     font-weight: bold;
 }
 
@@ -62,15 +62,27 @@ header {
 }
 
 #blue {
-    color: rgb(109, 182, 241);
+    color: #fff;
+    background-color: #34349b;
+    text-align: center;
+    padding: 4px 6px 4px 6px;
+    width: 110px;
 }
 
 #yellow {
-    color: rgb(253, 255, 111);
+    background-color: #e3c702;
+    text-align: center;
+    padding: 4px 6px 4px 6px;
+    color: white;
+    width: 110px;
 }
 
 #red {
-    color: rgb(251, 111, 111);
+    background-color: #d10a0a;
+    text-align: center;
+    padding: 4px 6px 4px 6px;
+    color: white;
+    width: 110px;
 }
 
 /* main section with banner and cover text */
