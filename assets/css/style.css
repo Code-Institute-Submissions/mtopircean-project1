@@ -69,12 +69,22 @@ header {
     width: 110px;
 }
 
+#blue:hover {
+    color: #34349b;
+    background-color: #fff;
+}
+
 #yellow {
     background-color: #e3c702;
     text-align: center;
     padding: 4px 6px 4px 6px;
     color: white;
     width: 110px;
+}
+
+#yellow:hover {
+    color: #e3c702;
+    background-color: #fff;
 }
 
 #red {
@@ -85,6 +95,10 @@ header {
     width: 110px;
 }
 
+#red:hover {
+    color: #d10a0a;
+    background-color: #fff;
+}
 /* main section with banner and cover text */
 
 .main-section {
