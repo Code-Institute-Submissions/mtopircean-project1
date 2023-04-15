@@ -39,7 +39,7 @@ header {
     font-size: 100%;
     margin-left: 20px;
     color: #4d4b41;
-    text-align:left;
+    text-align: left;
 }
 
 .menu {
@@ -89,13 +89,13 @@ header {
 
 .main-section {
     position: relative;
-    height: 700px;
-    width: 100%;
+    height: 500px;
     overflow: hidden;
+    width: 100%;
 }
 
 #main-image {
-    background: url('../images/front-page-main.jpg')no-repeat center center;
+    background: url('../images/front-main-page-v5.jpg')no-repeat center center;
     height: 100%;
     width: 100%;
 }
@@ -106,11 +106,16 @@ header {
     bottom: 20px;
     width: 100%;
     height: 136px;
-    line-height: 146%;
+    line-height: 114%;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
     padding: 0px;
+}
+
+#main-text a {
+    text-decoration: underline;
+    color: inherit;
 }
 
 /* schedule and events */
@@ -122,7 +127,7 @@ header {
 
 #schedule-events {
     position: relative;
-    height: 500px;
+    height: 400px;
     width: 100%;
     overflow: hidden;
 }
@@ -281,9 +286,9 @@ footer li {
     font-size: large;
     display: block;
     width: 50%;
-    background-color:#2f3c41;
+    background-color: #2f3c41;
     color: white;
-    border-color: #2f3c41 ;
+    border-color: #2f3c41;
 }
 
 #join-button:hover {
@@ -353,4 +358,3 @@ footer li {
 #about-media-text span {
     font-style: italic;
 }
-
