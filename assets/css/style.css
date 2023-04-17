@@ -44,7 +44,7 @@ header {
 
 .menu {
     float: right;
-    margin-right: 20px;
+    margin-right: 60px;
     text-transform: uppercase;
 }
 
@@ -109,9 +109,10 @@ header {
 }
 
 #main-image {
-    background: url('../images/front-main-page-v5.jpg')no-repeat center center;
+    background: url('../images/banner-front.jpg')no-repeat center center;
     height: 100%;
     width: 100%;
+    background-size: cover;
 }
 
 #main-text {
