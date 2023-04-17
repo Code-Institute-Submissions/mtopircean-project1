@@ -635,7 +635,7 @@ input {
     /* About page */
     #text-about {
         float: none;
-        width: 96%;
+        width: 100%;
         height: auto;
         padding: 20px;
         line-height: 1.5;
@@ -741,4 +741,11 @@ input {
         width: 105%;
     }
     
+    #maps {
+        width: 100%;
+        margin: 20px;
+        float: left;
+        font-size: 0.6rem;
+        text-align: center;
+    }
    }
