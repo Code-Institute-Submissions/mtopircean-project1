@@ -392,3 +392,170 @@ input {
     font-size: 1rem;
 
 }
+
+/* For larger to medium screens size from 1200px wide and down */
+
+/* Home page */
+@media screen and  (max-width: 1200px) {
+
+#overall-main {
+    font-size: 1rem;
+    padding: 5px;
+}
+
+#service-table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #475081;
+
+}
+
+#service-table th {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #475081;
+
+}
+
+#schedule-events {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* About page */
+#about-image {
+    float: right;
+    padding: 20px;
+    background: url(../images/easter-photo.jpg) no-repeat center center;
+    background-size: cover;
+    width: 40%;
+    height: 794px;
+    border-radius: 10px;
+    margin-right: 35px;
+}
+
+#text-about {
+    float: left;
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    line-height: 1.5;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 0.9rem;
+}
+
+#text-about h2{
+    font-size: 1.3rem;
+}
+
+#text-about h3{
+    font-size: 1rem;
+}
+/* Media page */
+#media-description {
+    font-size: 1rem;
+}
+
+#timeline-data {
+    position: fixed;
+    border-right: #2f3c41 solid 4px;
+    padding: 10px 10px 50px 10px;
+    text-transform: uppercase;
+    line-height: 3;
+    width: 10%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#about-media-text {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.media-text-description p {
+    font-size: small;
+}
+
+.media-text-description ph3 {
+    font-size: small;
+}
+
+#video-april {
+    width: 45%;
+    display: flex;
+}
+#video-march {
+    width: 45%;
+    display: flex;
+}
+#video-february {
+    width: 45%;
+    display: flex;
+}
+#video-january {
+    width: 45%;
+    display: flex;
+}
+
+.media-text-description {
+    width: 50%;
+    float: right;
+    padding: 20px;
+    font-size: 1rem;
+    font-family: inherit;
+    text-align: left;
+}
+
+/* Contact page */
+
+#form-and-text {
+    width: 45%;
+    margin: 10px;
+    float: left;
+    line-height: 1.5;
+    padding: 20px;
+    font-size: 1rem;
+}
+
+#join-button {
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    display: block;
+    width: 45%;
+    height: 45px;
+    background-color: #2f3c41;
+    color: white;
+    border-color: #2f3c41;
+    float: left;
+}
+
+#maps {
+    width: 46%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    float: right;
+    font-size: 0.6rem;
+    text-align: center;
+}
+
+#google-map {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 2px;
+    border-radius: 10px;
+    display: inline-block;
+}
+}
