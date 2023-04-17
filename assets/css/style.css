@@ -724,7 +724,7 @@ input {
         padding: 20px;
         font-size: 1rem;
     }
-    
+
     #form-and-text {
         width: 95%;
         margin: 10px;
@@ -733,4 +733,12 @@ input {
         padding: 20px;
         font-size: 1rem;
     }
+
+    .main-section {
+        position: relative;
+        height: 500px;
+        overflow: hidden;
+        width: 105%;
+    }
+    
    }
