@@ -749,3 +749,26 @@ input {
         text-align: center;
     }
    }
+
+   /* For screen size from 800px wide and down */
+   @media screen and (max-width: 800px){
+
+    #all-video h2 {
+        text-align: left;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+    }
+
+    #media-description {
+        font-size: 0.8rem;
+    }
+
+    #timeline-data a {
+        text-decoration: none;
+        color: inherit;
+        font-size: 0.7rem;
+    }
+
+   }
