@@ -26,6 +26,7 @@ header {
     letter-spacing: 2px;
 }
 
+
 #icon-logo {
     color: #4d4b41;
     float: left;
@@ -813,7 +814,7 @@ input {
     #menu-small li {
         text-align: center;
         display: inline-block;
-        padding-right: 20px;
+        padding-right: 0px;
         font-size: 0.8rem;
         font-weight: bold;
     }
@@ -906,6 +907,30 @@ input {
 
     #menu-small {
         visibility: visible;
+    }
+
+    #menu-small {
+        float: none;
+        margin-right: none;
+        text-transform: uppercase;
+        margin-top: 10px;
+    }
+    
+    #menu-small li {
+        text-align: center;
+        display: inline-block;
+        padding-right: 0px;
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    
+    #menu-small a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    #red, #blue, #yellow {
+        padding: 1px 2px 2px 1px;
     }
 
     /* Contact page */
