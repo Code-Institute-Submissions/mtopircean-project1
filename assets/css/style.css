@@ -17,6 +17,10 @@ body {
 
 /* logo and menu */
 
+..menu {
+    visibility: none;
+}
+
 header {
     padding: 20px;
     display: inline-block;
@@ -771,4 +775,52 @@ input {
         font-size: 0.7rem;
     }
 
+   }
+
+   /* For screen size from 600px wide and down */
+   @media screen and (max-width: 600px){
+
+    #timeline-data a {
+        display: none;
+    }
+    #timeline-data {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu-small {
+        visibility: visible;
+    }
+
+    .menu-small {
+        float: none;
+        margin-right: none;
+        text-transform: uppercase;
+        margin-top: 10px;
+    }
+    
+    .menu-small li {
+        text-align: center;
+        display: inline-block;
+        padding-right: 20px;
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    
+    .menu-small a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    #home-icon {
+        color: #34349b;
+        padding: 1px;
+
+    }
+    #red, #blue, #yellow {
+        padding: 1px 2px 2px 1px;
+    }
    }
