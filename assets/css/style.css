@@ -890,4 +890,44 @@ input {
     padding: 20px;
     font-size: 0.8rem;
 }
+/* Media page */
+.media-text-description {
+    width: 100%;
+}
+   }
+
+   /* For screen size from 425px wide and down */
+   @media screen and (max-width: 425px){
+
+    /* Contact page */
+    input {
+        width: 60%;
+    }
+    #join-button {
+        padding: 2px 2px 2px 2px;
+        font-size: 1rem;
+    }
+
+    /* Home page */
+    .main-section {
+        height: 256px;
+        width: 111%;
+    }
+
+    #main-text {
+        height: 121px;
+        line-height: 157%;
+        font-size: 1rem;
+    }
+
+    /* Media page */
+
+    #all-video {
+        float: right;
+        width: 95%;
+    }
+
+    .media-text-description {
+        width: 100%;
+    }
    }
