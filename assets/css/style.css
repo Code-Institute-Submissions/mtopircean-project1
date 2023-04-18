@@ -17,10 +17,6 @@ body {
 
 /* logo and menu */
 
-..menu {
-    visibility: none;
-}
-
 header {
     padding: 20px;
     display: inline-block;
@@ -399,6 +395,13 @@ input {
 
 /* For larger to medium screens size from 1200px wide and down */
 
+@media screen and  (min-width: 601px) {
+
+    /* Navigation */
+    #menu-small {
+        display: none;
+    }
+}
 
 @media screen and  (max-width: 1200px) {
 /* Home page */
@@ -568,6 +571,7 @@ input {
 /* For medium screen sizes from 950px wide and down*/
 
 @media screen and  (max-width: 950px) {
+
     /* Home page */
     #service {
         text-align: center;
@@ -756,6 +760,7 @@ input {
 
    /* For screen size from 800px wide and down */
    @media screen and (max-width: 800px){
+
 /* Media page */
     #all-video h2 {
         text-align: left;
@@ -794,18 +799,18 @@ input {
         display: none;
     }
 
-    .menu-small {
+    #menu-small {
         visibility: visible;
     }
 
-    .menu-small {
+    #menu-small {
         float: none;
         margin-right: none;
         text-transform: uppercase;
         margin-top: 10px;
     }
     
-    .menu-small li {
+    #menu-small li {
         text-align: center;
         display: inline-block;
         padding-right: 20px;
@@ -813,7 +818,7 @@ input {
         font-weight: bold;
     }
     
-    .menu-small a {
+    #menu-small a {
         text-decoration: none;
         color: inherit;
     }
@@ -898,6 +903,10 @@ input {
 
    /* For screen size from 425px wide and down */
    @media screen and (max-width: 425px){
+
+    #menu-small {
+        visibility: visible;
+    }
 
     /* Contact page */
     input {
