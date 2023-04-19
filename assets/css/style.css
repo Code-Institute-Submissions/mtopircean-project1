@@ -988,3 +988,14 @@ input {
         width: 100%;
     }
    }
+
+   /* For screen size from 361px wide and down */
+   @media screen and (max-width: 361px){
+
+    /* Menu */
+    #red, #blue, #yellow {
+        padding: 1px 2px 2px 1px;
+        font-size: 0.8rem;
+        width: 100%;
+    }
+   }
