@@ -855,6 +855,8 @@ input {
         font-size: 0.8rem;
     }
 
+    
+
     #quote {
         position: relative;
         text-align: center;
@@ -954,6 +956,27 @@ input {
         font-size: 1rem;
     }
 
+    #service {
+        padding: 10px;
+    }
+
+    #schedule-events {
+
+        margin: 12px;
+    }
+        #quote {
+            padding: 15px;
+            width: 100%;
+        }
+        #service-table td {
+            padding: 8px;
+        font-size: 0.8rem;
+        }
+
+        #service-table th {
+            padding: 8px;
+            font-size: 0.8rem;
+        }
     /* Media page */
 
     #all-video {
