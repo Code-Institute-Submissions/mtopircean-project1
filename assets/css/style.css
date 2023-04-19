@@ -364,6 +364,7 @@ input {
 #all-video {
     float: right;
     width: 84%;
+    margin-right: 20px;
 }
 
 #all-video h2 {
@@ -375,9 +376,9 @@ input {
 }
 
 .media-text-description {
-    width: 60%;
+    width: 50%;
     float: right;
-    padding: 20px;
+    padding: 10px;
     font-size: 1rem;
     font-family: inherit;
     text-align: left;
@@ -392,6 +393,23 @@ input {
     line-height: 2;
     font-size: 1rem;
 
+}
+
+#video-april {
+    width: 45%;
+    display: flex;
+}
+#video-march {
+    width: 45%;
+    display: flex;
+}
+#video-february {
+    width: 45%;
+    display: flex;
+}
+#video-january {
+    width: 45%;
+    display: flex;
 }
 
 /* For larger to medium screens size from 1200px wide and down */
