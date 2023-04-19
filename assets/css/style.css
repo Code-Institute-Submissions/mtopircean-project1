@@ -587,9 +587,9 @@ input {
 }
 }
 
-/* For medium screen sizes from 950px wide and down*/
+/* For medium screen sizes from 954px wide and down*/
 
-@media screen and  (max-width: 950px) {
+@media screen and  (max-width: 954px) {
 
     /* Home page */
     #service {
@@ -715,21 +715,22 @@ input {
     }
     
     #video-april {
-        width: 60%;
+        width: 100%;
         display: flex;
     }
     #video-march {
-        width: 60%;
+        width: 100%;
         display: flex;
     }
     #video-february {
-        width: 60%;
+        width: 100%;
         display: flex;
     }
     #video-january {
-        width: 60%;
+        width: 100%;
         display: flex;
     }
+
     
     .media-text-description {
         width: 80%;
@@ -810,6 +811,23 @@ input {
     }
     #timeline-data {
         display: none;
+    }
+
+    #video-april {
+        width: 100%;
+        display: flex;
+    }
+    #video-march {
+        width: 100%;
+        display: flex;
+    }
+    #video-february {
+        width: 100%;
+        display: flex;
+    }
+    #video-january {
+        width: 100%;
+        display: flex;
     }
 
     /* Navigation section*/
