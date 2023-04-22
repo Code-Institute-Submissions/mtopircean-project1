@@ -75,7 +75,7 @@ header {
     background-color: #fff;
 }
 
-#yellow {
+.yellow {
     background-color: #bca703;
     text-align: center;
     padding: 4px 6px 4px 6px;
@@ -83,12 +83,12 @@ header {
     width: 110px;
 }
 
-#yellow:hover {
+.yellow:hover {
     color: #bca703;
     background-color: #fff;
 }
 
-#red {
+.red {
     background-color: #d10a0a;
     text-align: center;
     padding: 4px 6px 4px 6px;
@@ -96,7 +96,7 @@ header {
     width: 110px;
 }
 
-#red:hover {
+.red:hover {
     color: #d10a0a;
     background-color: #fff;
 }
@@ -743,9 +743,9 @@ input {
 
     }
 
-    #red,
-    #blue,
-    #yellow {
+    .red,
+    .blue,
+    .yellow {
         padding: 1px 2px 2px 1px;
     }
 
@@ -807,9 +807,9 @@ input {
 /* For screen size from 425px wide and down */
 @media screen and (max-width: 425px) {
 
-    #red,
-    #blue,
-    #yellow {
+    .red,
+    .blue,
+    .yellow {
         padding: 1px 2px 2px 1px;
     }
 
@@ -872,9 +872,9 @@ input {
 @media screen and (max-width: 361px) {
 
     /* Menu */
-    #red,
-    #blue,
-    #yellow {
+    .red,
+    .blue,
+    .yellow {
         padding: 1px 2px 2px 1px;
         font-size: 0.8rem;
         width: 100%;
@@ -943,7 +943,7 @@ header {
     color: inherit;
 }
 
-#blue {
+.blue {
     color: #fff;
     background-color: #34349b;
     text-align: center;
@@ -951,12 +951,12 @@ header {
     width: 110px;
 }
 
-#blue:hover {
+.blue:hover {
     color: #34349b;
     background-color: #fff;
 }
 
-#yellow {
+.yellow {
     background-color: #bca703;
     text-align: center;
     padding: 4px 6px 4px 6px;
@@ -964,12 +964,12 @@ header {
     width: 110px;
 }
 
-#yellow:hover {
+.yellow:hover {
     color: #e3c702;
     background-color: #fff;
 }
 
-#red {
+.red {
     background-color: #d10a0a;
     text-align: center;
     padding: 4px 6px 4px 6px;
@@ -977,7 +977,7 @@ header {
     width: 110px;
 }
 
-#red:hover {
+.red:hover {
     color: #d10a0a;
     background-color: #fff;
 }
@@ -1624,9 +1624,9 @@ input {
 
     }
 
-    #red,
-    #blue,
-    #yellow {
+    .red,
+    .blue,
+    .yellow {
         padding: 1px 2px 2px 1px;
     }
 
@@ -1688,9 +1688,9 @@ input {
 /* For screen size from 425px wide and down */
 @media screen and (max-width: 425px) {
 
-    #red,
-    #blue,
-    #yellow {
+    .red,
+    .blue,
+    .yellow {
         padding: 1px 2px 2px 1px;
     }
 
@@ -1753,9 +1753,9 @@ input {
 @media screen and (max-width: 361px) {
 
     /* Menu */
-    #red,
-    #blue,
-    #yellow {
+    .red,
+    .blue,
+    .yellow {
         padding: 1px 2px 2px 1px;
         font-size: 0.8rem;
         width: 100%;
