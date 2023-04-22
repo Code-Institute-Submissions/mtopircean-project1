@@ -100,13 +100,14 @@ header {
     color: #d10a0a;
     background-color: #fff;
 }
+
 /* main section with banner and cover text */
 
 .main-section {
     position: relative;
     height: 500px;
     overflow: hidden;
-    width: 100%;
+    width: 103%;
 }
 
 #main-image {
@@ -237,24 +238,25 @@ footer li {
 }
 
 #text-about {
-    float: left;
-    width: 50%;
-    height: auto;
-    padding: 20px;
-    line-height: 2;
-    justify-content: center;
-    text-align: center;
-    border-radius: 10px;
-    font-size: 1rem;
+        float: left;
+        width: 50%;
+        height: auto;
+        padding: 20px;
+        line-height: 2;
+        justify-content: center;
+        text-align: center;
+        border-radius: 10px;
+        font-size: 1rem;
+        margin-bottom: 80px;
 }
 
 #about-image {
     float: right;
     padding: 20px;
-    background: url('../images/easter-photo.jpg') no-repeat center center;
+    background: url(../images/easter-photo.jpg) no-repeat center center;
     background-size: cover;
-    width: 45%;
-    height: 1366px;
+    width: 43%;
+    height: 956px;
     border-radius: 10px;
 }
 
@@ -267,7 +269,7 @@ footer li {
 
 #form-and-text {
     width: 30%;
-    margin:20px;
+    margin: 20px;
     float: left;
     line-height: 2;
     padding: 20px;
@@ -305,6 +307,7 @@ footer li {
     float: left;
     width: 45%;
 }
+
 #join-button {
     margin-top: 40px;
     border-radius: 10px;
@@ -327,9 +330,9 @@ footer li {
 }
 
 input {
-    border:#2f3c41 solid 1px;
+    border: #2f3c41 solid 1px;
     float: right;
-    width: 75%;
+    width: 60%;
     height: 20px;
     border-radius: 5px;
     text-align: center;
@@ -365,6 +368,7 @@ input {
     float: right;
     width: 84%;
     margin-right: 20px;
+    margin-bottom: 40px;
 }
 
 #all-video h2 {
@@ -399,22 +403,25 @@ input {
     width: 45%;
     display: flex;
 }
+
 #video-march {
     width: 45%;
     display: flex;
 }
+
 #video-february {
     width: 45%;
     display: flex;
 }
+
 #video-january {
     width: 45%;
     display: flex;
 }
 
-/* For larger to medium screens size from 1200px wide and down */
+/* For larger to medium screens size from 601px wide and up */
 
-@media screen and  (min-width: 601px) {
+@media screen and (min-width: 601px) {
 
     /* Navigation */
     #menu-small {
@@ -422,216 +429,139 @@ input {
     }
 }
 
-@media screen and  (max-width: 1200px) {
-/* Home page */
+/* For larger to medium screens size from 1200px wide and down */
 
-#overall-main {
-    font-size: 1rem;
-    padding: 5px;
-}
+@media screen and (max-width: 1200px) {
+    /* Home page */
 
-#service-table td {
-    padding: 10px;
-    text-align: center;
-    border-bottom: 2px solid #475081;
+    #overall-main {
+        padding: 5px;
+    }
 
-}
+    #service-table td {
+        padding: 10px;
 
-#service-table th {
-    padding: 10px;
-    text-align: center;
-    border-bottom: 2px solid #475081;
+    }
 
-}
+    #service-table th {
+        padding: 10px;
 
-#schedule-events {
-    position: relative;
-    height: 300px;
-    width: 100%;
-    overflow: hidden;
-}
+    }
 
-/* About page */
-#about-image {
-    float: right;
-    padding: 20px;
-    background: url(../images/easter-photo.jpg) no-repeat center center;
-    background-size: cover;
-    width: 40%;
-    height: 794px;
-    border-radius: 10px;
-    margin-right: 35px;
-}
+    #schedule-events {
+        height: 300px;
+        width: 100%;
+    }
 
-#text-about {
-    float: left;
-    width: 50%;
-    height: auto;
-    padding: 20px;
-    line-height: 1.5;
-    justify-content: center;
-    text-align: center;
-    border-radius: 10px;
-    font-size: 0.9rem;
-}
+    /* About page */
+        #about-image {
+            float: right;
+            padding: 20px;
+            background: url(../images/easter-photo.jpg) no-repeat center center;
+            background-size: cover;
+            width: 37%;
+            height: 656px;
+            border-radius: 10px;
+            margin-right: 35px;
+    }
 
-#text-about h2{
-    font-size: 1.3rem;
-}
+    #text-about {
+        line-height: 1.5;
+        font-size: 0.9rem;
+    }
 
-#text-about h3{
-    font-size: 1rem;
-}
-/* Media page */
-#media-description {
-    font-size: 1rem;
-}
+    #text-about h2 {
+        font-size: 1.3rem;
+    }
 
-#timeline-data {
-    position: fixed;
-    border-right: #2f3c41 solid 4px;
-    padding: 10px 10px 50px 10px;
-    text-transform: uppercase;
-    line-height: 3;
-    width: 10%;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 20px;
-}
+    #text-about h3 {
+        font-size: 1rem;
+    }
 
-#about-media-text {
-    float: left;
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    text-align: center;
-    line-height: 1.5;
-}
+    /* Media page */
+    #media-description {
+        font-size: 1rem;
+    }
 
-.media-text-description p {
-    font-size: small;
-}
+    #timeline-data {
+        padding: 10px 10px 50px 10px;
+        margin-top: 20px;
+    }
 
-.media-text-description h3 {
-    font-size: small;
-}
+    #about-media-text {
+        line-height: 1.5;
+    }
 
-#video-april {
-    width: 45%;
-    display: flex;
-}
-#video-march {
-    width: 45%;
-    display: flex;
-}
-#video-february {
-    width: 45%;
-    display: flex;
-}
-#video-january {
-    width: 45%;
-    display: flex;
-}
+    .media-text-description p {
+        font-size: small;
+    }
 
-.media-text-description {
-    width: 50%;
-    float: right;
-    padding: 20px;
-    font-size: 1rem;
-    font-family: inherit;
-    text-align: left;
-}
+    .media-text-description h3 {
+        font-size: small;
+    }
 
-/* Contact page */
 
-#form-and-text {
-    width: 45%;
-    margin: 10px;
-    float: left;
-    line-height: 1.5;
-    padding: 20px;
-    font-size: 1rem;
-}
+    .media-text-description {
+        padding: 20px;
+    }
 
-#join-button {
-    margin-top: 30px;
-    border-radius: 10px;
-    padding: 10px 20px 10px 20px;
-    text-align: center;
-    font-size: 1.5rem;
-    display: block;
-    width: 45%;
-    height: 45px;
-    background-color: #2f3c41;
-    color: white;
-    border-color: #2f3c41;
-    float: left;
-}
+    /* Contact page */
 
-#maps {
-    width: 46%;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    float: right;
-    font-size: 0.6rem;
-    text-align: center;
-}
+    #form-and-text {
+        width: 45%;
+        margin: 10px;
+        line-height: 1.5;
+        font-size: 1rem;
+    }
 
-#google-map {
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    padding: 2px;
-    border-radius: 10px;
-    display: inline-block;
-}
+    #join-button {
+        margin-top: 30px;
+        padding: 10px 20px 10px 20px;
+        width: 45%;
+        height: 45px;
+    }
+
+    #maps {
+        width: 46%;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        font-size: 0.6rem;
+        text-align: center;
+    }
+
+    #google-map {
+        padding: 2px;
+        border-radius: 10px;
+    }
 }
 
 /* For medium screen sizes from 954px wide and down*/
 
-@media screen and  (max-width: 954px) {
+@media screen and (max-width: 954px) {
 
     /* Home page */
     #service {
-        text-align: center;
-        width: 100%;
-        padding: 20px;
-        justify-content: space-evenly;
         align-items: center;
-        display: flex;
         flex-direction: column;
     }
+
     #service-table {
-        float: left;
-        text-align: center;
         width: 100%;
         height: 250px;
     }
 
     #schedule-events {
-        position: relative;
         height: 600px;
-        width: 100%;
-        overflow: hidden;
     }
 
     #events {
-        float: right;
-        text-align: center;
         width: 80%;
         line-height: 2;
         height: 300px;
-        justify-content: center;
-        align-items: center;
     }
 
     header {
-        padding: 20px;
         display: flex;
-        background-color: #fff;
-        width: 100%;
-        height: auto;
-        letter-spacing: 2px;
         flex-direction: column;
         align-items: center;
         justify-content: flex-end;
@@ -641,40 +571,28 @@ input {
 
     .menu {
         float: center;
-        text-transform: uppercase;
         margin-top: 5px;
         margin-right: 0px;
     }
 
     #logo {
-        float: left;
-        font-size: 100%;
-        margin-left: 20px;
-        color: #4d4b41;
         text-align: center;
     }
+
     #icon-logo {
-        color: #4d4b41;
         float: center;
-        line-height: 110%;
     }
 
     /* About page */
     #text-about {
         float: none;
         width: 100%;
-        height: auto;
-        padding: 20px;
         line-height: 1.5;
-        justify-content: center;
-        text-align: center;
-        border-radius: 10px;
         font-size: 0.9rem;
     }
 
     #about-image {
         float: none;
-        padding: 20px;
         background: url(../images/about-photo.jpg) no-repeat center center;
         background-size: cover;
         width: 100%;
@@ -686,60 +604,48 @@ input {
     /* Media page */
 
     #timeline-data {
-        position: fixed;
         border-right: #2f3c41 solid 2px;
         padding: 10px 1px 20px 1px;
-        text-transform: uppercase;
         line-height: 2;
         width: 10%;
-        text-align: center;
-        font-weight: bold;
         margin-top: 20px;
     }
+
     #about-media-text {
-        float: left;
-        width: 100%;
-        margin-top: 20px;
-        margin-bottom: 30px;
-        text-align: center;
         line-height: 1.5;
     }
-    
+
     .media-text-description p {
         font-size: small;
     }
-    
+
     .media-text-description h3 {
         font-size: small;
         text-decoration: underline 1px;
     }
-    
+
     #video-april {
         width: 100%;
-        display: flex;
-    }
-    #video-march {
-        width: 100%;
-        display: flex;
-    }
-    #video-february {
-        width: 100%;
-        display: flex;
-    }
-    #video-january {
-        width: 100%;
-        display: flex;
     }
 
-    
+    #video-march {
+        width: 100%;
+    }
+
+    #video-february {
+        width: 100%;
+    }
+
+    #video-january {
+        width: 100%;
+    }
+
+
     .media-text-description {
         width: 80%;
         float: left;
         padding: 0px;
         padding-bottom: 20px;
-        font-size: 1rem;
-        font-family: inherit;
-        text-align: left;
     }
 
     /* Contact page */
@@ -747,28 +653,21 @@ input {
     #form-and-text {
         width: 95%;
         margin: 10px;
-        float: left;
         line-height: 1.5;
-        padding: 20px;
         font-size: 1rem;
     }
 
     #form-and-text {
         width: 95%;
         margin: 10px;
-        float: left;
         line-height: 1.5;
-        padding: 20px;
         font-size: 1rem;
     }
 
     .main-section {
-        position: relative;
-        height: 500px;
-        overflow: hidden;
         width: 105%;
     }
-    
+
     #maps {
         width: 100%;
         margin: 20px;
@@ -776,18 +675,14 @@ input {
         font-size: 0.6rem;
         text-align: center;
     }
-   }
+}
 
-   /* For screen size from 800px wide and down */
-   @media screen and (max-width: 800px){
+/* For screen size from 800px wide and down */
+@media screen and (max-width: 800px) {
 
-/* Media page */
+    /* Media page */
     #all-video h2 {
-        text-align: left;
-        margin-bottom: 20px;
-        margin-top: 20px;
         font-size: 0.9rem;
-        text-transform: uppercase;
     }
 
     #media-description {
@@ -795,39 +690,21 @@ input {
     }
 
     #timeline-data a {
-        text-decoration: none;
-        color: inherit;
         font-size: 0.7rem;
     }
 
-   }
+}
 
-   /* For screen size from 600px wide and down */
-   @media screen and (max-width: 600px){
+/* For screen size from 600px wide and down */
+@media screen and (max-width: 600px) {
 
     /* Media Page */
     #timeline-data a {
         display: none;
     }
+
     #timeline-data {
         display: none;
-    }
-
-    #video-april {
-        width: 100%;
-        display: flex;
-    }
-    #video-march {
-        width: 100%;
-        display: flex;
-    }
-    #video-february {
-        width: 100%;
-        display: flex;
-    }
-    #video-january {
-        width: 100%;
-        display: flex;
     }
 
     /* Navigation section*/
@@ -846,7 +723,7 @@ input {
         text-transform: uppercase;
         margin-top: 10px;
     }
-    
+
     #menu-small li {
         text-align: center;
         display: inline-block;
@@ -854,7 +731,7 @@ input {
         font-size: 0.8rem;
         font-weight: bold;
     }
-    
+
     #menu-small a {
         text-decoration: none;
         color: inherit;
@@ -865,49 +742,36 @@ input {
         padding: 1px;
 
     }
-    #red, #blue, #yellow {
+
+    #red,
+    #blue,
+    #yellow {
         padding: 1px 2px 2px 1px;
     }
 
     /* Home page */
     #main-text {
-        background-color: #4d4b4187;
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    height: 136px;
-    line-height: 146%;
-    text-align: center;
-    font-size: 1.2rem;
-    color: white;
-    padding: 0px;
+        line-height: 146%;
+        text-align: center;
+        font-size: 1.2rem;
     }
 
     #schedule-events {
-        position: relative;
         height: 550px;
-        width: 100%;
-        overflow: hidden;
         font-size: 0.8rem;
     }
 
-    
+
 
     #quote {
-        position: relative;
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        padding: 20px;
-        font-style: italic;
         font-size: 0.8rem;
     }
+
     .main-section {
-        position: relative;
         height: 450px;
-        overflow: hidden;
         width: 105%;
     }
+
     /* Contact page */
     #maps {
         width: 100%;
@@ -916,65 +780,41 @@ input {
         font-size: 0.8rem;
         text-align: center;
     }
-#map-kilkenny {
-    float: left;
-    width: 100%;
-}
 
-#map-waterford {
-    float: left;
-    width: 100%;
-}
-
-#form-and-text {
-    width: 95%;
-    margin: 10px;
-    float: left;
-    line-height: 2.5;
-    padding: 20px;
-    font-size: 0.8rem;
-}
-/* Media page */
-.media-text-description {
-    width: 100%;
-}
-   }
-
-   /* For screen size from 425px wide and down */
-   @media screen and (max-width: 425px){
-
-    #menu-small {
-        visibility: visible;
+    #map-kilkenny {
+        float: left;
+        width: 100%;
     }
 
-    #menu-small {
-        float: none;
-        margin-right: none;
-        text-transform: uppercase;
-        margin-top: 10px;
+    #map-waterford {
+        float: left;
+        width: 100%;
     }
-    
-    #menu-small li {
-        text-align: center;
-        display: inline-block;
-        padding-right: 0px;
+
+    #form-and-text {
+        width: 95%;
+        margin: 10px;
+        line-height: 2.5;
         font-size: 0.8rem;
-        font-weight: bold;
-    }
-    
-    #menu-small a {
-        text-decoration: none;
-        color: inherit;
     }
 
-    #red, #blue, #yellow {
+    /* Media page */
+    .media-text-description {
+        width: 100%;
+    }
+}
+
+/* For screen size from 425px wide and down */
+@media screen and (max-width: 425px) {
+
+    #red,
+    #blue,
+    #yellow {
         padding: 1px 2px 2px 1px;
     }
 
     /* Contact page */
-    input {
-        width: 60%;
-    }
+
     #join-button {
         padding: 2px 2px 2px 2px;
         font-size: 1rem;
@@ -1000,23 +840,25 @@ input {
 
         margin: 12px;
     }
-        #quote {
-            padding: 15px;
-            width: 100%;
-        }
-        #service-table td {
-            padding: 8px;
-        font-size: 0.8rem;
-        }
 
-        #service-table th {
-            padding: 8px;
-            font-size: 0.8rem;
-        }
+    #quote {
+        padding: 15px;
+        width: 100%;
+    }
+
+    #service-table td {
+        padding: 8px;
+        font-size: 0.8rem;
+    }
+
+    #service-table th {
+        padding: 8px;
+        font-size: 0.8rem;
+    }
+
     /* Media page */
 
     #all-video {
-        float: right;
         width: 95%;
         margin-right: -10px;
     }
@@ -1024,15 +866,17 @@ input {
     .media-text-description {
         width: 100%;
     }
-   }
+}
 
-   /* For screen size from 361px wide and down */
-   @media screen and (max-width: 361px){
+/* For screen size from 361px wide and down */
+@media screen and (max-width: 361px) {
 
     /* Menu */
-    #red, #blue, #yellow {
+    #red,
+    #blue,
+    #yellow {
         padding: 1px 2px 2px 1px;
         font-size: 0.8rem;
         width: 100%;
     }
-   }
+}
