@@ -289,7 +289,7 @@ footer li {
     font-size: 1rem;
 }
 
-#google-map {
+.google-map {
     width: 100%;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -529,7 +529,7 @@ input {
         text-align: center;
     }
 
-    #google-map {
+    .google-map {
         padding: 2px;
         border-radius: 10px;
     }
@@ -1170,7 +1170,7 @@ footer li {
     font-size: 1rem;
 }
 
-#google-map {
+.google-map {
     width: 100%;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -1410,7 +1410,7 @@ input {
         text-align: center;
     }
 
-    #google-map {
+    .google-map {
         padding: 2px;
         border-radius: 10px;
     }
