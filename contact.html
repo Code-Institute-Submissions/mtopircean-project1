@@ -16,9 +16,11 @@
 
 <body>
     <header>
+<!-- Church logo from font-awesome -->
         <a href="index.html">
             <i class="fa-solid fa-church fa-2xl" id="icon-logo"></i>
         </a>
+<!-- Contains text for logo -->
         <a href="index.html">
             <h1 id="logo"> Romanian Orthodox Church
                 <br>
@@ -40,6 +42,7 @@
                 </li>
             </ul>
         </nav>
+<!-- Second menu used only for resolutions 600px and under -->
         <nav id="menu-small">
             <ul>
                 <li id="home-icon">
@@ -57,9 +60,12 @@
             </ul>
         </nav>
     </header>
+<!-- Includes both the forms, text and also the iframe for the maps -->
     <div id="form-and-maps">
+<!-- Includes the top introduction text and also the form -->
             <div id="form-and-text">
                 <section>
+<!-- Includes the top text introduction info -->
                     <div id="top-text">
                         <h3>Sign up to receive updates on Service Schedule, Events and useful articles:</h3>
                         <br>
@@ -71,6 +77,7 @@
                         <p>
                     </div>
                 </section>
+<!-- Contains the form data. Created a specific class as text-input in order to be able to style the input -->
                 <section class="form">
                     <form method="post" action="...." id="form-input"></form>
                     <div>
@@ -108,7 +115,9 @@
             <br>
             <br>
         <section>
+<!-- Contains map iframes -->
             <div id="maps">
+<!-- Contains map for kilkenny iframe -->
                 <div id="map-kilkenny">
                     <h3>Our Kilkenny location: James's St, Gardens, MP2V+X4 Kilkenny</h3>
                     <iframe class="google-map"
@@ -116,6 +125,7 @@
                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
+<!-- Contains map for waterford iframe -->
                 <div id="map-waterford">
                     <h3>Our Waterford location: Church Rd, Lisduggan, 7V28+24 Waterford</h3>
                     <iframe class="google-map"
