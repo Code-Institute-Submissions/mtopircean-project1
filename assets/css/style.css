@@ -63,41 +63,44 @@ header {
 }
 
 .blue {
-    color: #fff;
-    background-color: #34349b;
+    color: #4d4b41;
+    background-color: #fff;
     text-align: center;
     padding: 4px 6px 4px 6px;
     width: 110px;
+    border-bottom: #002B7F solid 4px;
 }
 
 .blue:hover {
-    color: #4d4b41;
+    color: #002B7F;
     background-color: #fff;
 }
 
 .yellow {
-    background-color: #bca703;
+    color: #4d4b41;
+    background-color: #fff;
     text-align: center;
     padding: 4px 6px 4px 6px;
-    color: white;
     width: 110px;
+    border-bottom: #FCD116 solid 4px;
 }
 
 .yellow:hover {
-    color: #4d4b41;
+    color: #FCD116;
     background-color: #fff;
 }
 
 .red {
-    background-color: #d10a0a;
+    color: #4d4b41;
+    background-color: #fff;
     text-align: center;
     padding: 4px 6px 4px 6px;
-    color: white;
     width: 110px;
+    border-bottom: #CE1126 solid 4px;
 }
 
 .red:hover {
-    color: #4d4b41;
+    color: #CE1126;
     background-color: #fff;
 }
 
