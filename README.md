@@ -32,6 +32,7 @@ Website logo was design using font awesome.
 For fonts, technology used was google fonts.
 For photos data source was Pexels and https://www.zamfirphoto.com/, a local community photographer.
 Website also uses iframes for videos and maps from google and youtube.
+Video description text in media page is taken from the each of the relevant youtube links.
 
 ## Test and Debugging
 Code and website tested with:
