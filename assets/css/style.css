@@ -426,6 +426,35 @@ input {
     display: flex;
 }
 
+/* Forum redirect page */
+#thank-you-message {
+    width: 100%;
+    margin-top: 200px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#redirect-message {
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    font-style: italic;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#redirect-icon {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    font-style: italic;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 3rem;
+}
+
+
 /* For larger to medium screens size from 601px wide and up */
 
 @media screen and (min-width: 601px) {
