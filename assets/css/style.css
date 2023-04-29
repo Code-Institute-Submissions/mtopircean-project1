@@ -454,6 +454,15 @@ input {
     font-size: 3rem;
 }
 
+/* Styling for 404 page */
+#404-message {
+    width: 100%;
+    margin-top: 200px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
 
 /* For larger to medium screens size from 601px wide and up */
 
