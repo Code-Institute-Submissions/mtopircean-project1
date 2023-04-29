@@ -11,7 +11,7 @@ Once the website will be published online, it will be donate to the Church and w
 * [User Experience](#user-experience)
 * [Deployment](#deployment)
 * [Technologies](#technologies)
-    * [Programing Languages](#programing-language)
+    * [Programing Languages](#programing-languages)
     * [IDE](#ide)
     * [Other](#other)
 * [Design](#design)
