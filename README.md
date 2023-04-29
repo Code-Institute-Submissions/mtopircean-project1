@@ -118,7 +118,8 @@ Contact:
 
 #### Accessability
 
-#### Display size optimization 
+#### Display size optimization
+![Alt text](/readme/other/responsive-view.jpg)
 ## Testing & Validation
 #### HTML
 #### CSS
