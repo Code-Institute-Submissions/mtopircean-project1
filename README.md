@@ -10,10 +10,10 @@ Once the website will be published online, it will be donate to the Church and w
 * [Scope](#scope)
 * [User Experience](#user-experience)
 * [Deployment](#deployment)
-* [Technologies, Programing Languages and Other supporting Tools](#technologies,-programing-language,-other-supporting-tools)
+* [Technologies](#technologies)
     * [Programing Languages](#programing-language-used)
-    * [IDE`s](#ide`s-used-to-develop-the-website)
-    * [Other tools](#other-tools)
+    * [IDE](#ide)
+    * [Other](#other)
 * [Design](#design)
     * [Wireframes](#wireframes)
     * [Theme](#theme)
@@ -26,7 +26,7 @@ Once the website will be published online, it will be donate to the Church and w
 * [Testing & Validation](#testing-&-validation)
     * [HTML](#html)
     * [CSS](#css)
-    * [Accessability](#accessability)
+    * [Accessability Test](#accessability-test)
     * [Lighthouse](#lighthouse)
     * [Spellcheck](#spellcheck)
     * [Own testing and debugging](#own-testing-and-debugging)
@@ -71,19 +71,19 @@ To deploy using GitHub pages:
 
 
 
-## Technologies, Programing Language, other supporting tools
+## Technologies
 
 #### Programing Languages used:
 1. HTML
 2. CSS
 
 
-#### IDE`s used to develop the website:
+#### IDE:
 1. GitHub: mainly to deploy workspace, website and store database, but used to write small pieces of code and deploy the 404 page
 2. CodeAnywhere: support to write code and deploy via git to GitHub
 3. GitPod: support to write code and deploy via git to GitHub
 
-#### Other tools:
+#### Other:
 1. Pexels: support with photo data
 2. Font Awesome: support with icon for logo and social media icon
 3. Google Font: support with font used for the website text
@@ -123,7 +123,7 @@ Contact:
 ## Testing & Validation
 #### HTML
 #### CSS
-#### Accessability
+#### Accessability Test
 #### Lighthouse
 #### Spellcheck
 #### Own testing and debugging
