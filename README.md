@@ -11,7 +11,7 @@ Once the website will be published online, it will be donate to the Church and w
 * [User Experience](#user-experience)
 * [Deployment](#deployment)
 * [Technologies](#technologies)
-    * [Programing Languages](#programing-language-used)
+    * [Programing Languages](#programing-language)
     * [IDE](#ide)
     * [Other](#other)
 * [Design](#design)
@@ -23,7 +23,7 @@ Once the website will be published online, it will be donate to the Church and w
     * [Features](#features)
     * [Accessability](#accessability)
     * [Display size optimization](#display-size-optimization)
-* [Testing & Validation](#testing-&-validation)
+* [Testing and Validation](#testing-and-validation)
     * [HTML](#html)
     * [CSS](#css)
     * [Accessability Test](#accessability-test)
@@ -32,7 +32,7 @@ Once the website will be published online, it will be donate to the Church and w
     * [Own testing and debugging](#own-testing-and-debugging)
 * [Credits](#credits)
     * [Code Used](#code-used)
-    * [Video](#media)
+    * [Video](#video)
     * [Photography](#photography)
     * [Other](#other)
 * [About Author](#about-author)
@@ -73,7 +73,7 @@ To deploy using GitHub pages:
 
 ## Technologies
 
-#### Programing Languages used:
+#### Programing Languages:
 1. HTML
 2. CSS
 
@@ -120,7 +120,7 @@ Contact:
 
 #### Display size optimization
 ![Alt text](/readme/other/responsive-view.jpg)
-## Testing & Validation
+## Testing and Validation
 #### HTML
 #### CSS
 #### Accessability Test
