@@ -220,7 +220,24 @@ Please see bellow a list and the main areas of impact when implemented:
 
 
 ## Testing and Validation
+The website was tested for funtionality and design using the main used browsers: Mozilla, Chrome, Edge, Safari.
+There where also other external tools listed in the section Technologies that where used to ensure correct website 
+ and code behaviour.
+
 #### HTML
+Tested using W3C validator.
+* HOME:
+
+* ABOUT:
+
+* MEDIA:
+
+* CONTACT:
+
+* FORM REDIRECT:
+
+* 404 PAGE:
+
 #### CSS
 #### Accessability Test
 #### Lighthouse
