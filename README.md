@@ -195,9 +195,32 @@ Page designed in order to provide 404 customized message and experience.
 
 
 #### Accessability
+From an accessability perspective, my goal was to create a clean website with data easy to read, positioned in a relevant maner in the page for the user.
+I`ve achieved this by:
+* Writing semantinc HTML
+* Correct selection of text size and font in order to contrast well with the other elements of the page.
+* Selection of photos used based on high resolution, good contrast.
+* As majority of photos where implemented as background, titles where used in order to replace alt attributes
+
+Another area I was mindfull of was that all of the consideration above where not lost when using the website in lower resolutions.
+
 
 #### Display size optimization
 ![Alt text](/readme/other/responsive-view.jpg)
+Several size options where used when developing the responsive design.
+Please see bellow a list and the main areas of impact when implemented:
+
+* from 1200px wide and down
+* from 954px wide and down
+* from 800px wide and down
+* from 600px wide and down:
+* with first major structural change representing the removal of the timeline section from the media page
+* introduction of a restyled navigation menu
+* from 425px wide and down
+* from 361px wide and down
+
+
+
 ## Testing and Validation
 #### HTML
 #### CSS
