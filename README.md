@@ -29,7 +29,8 @@ Once the website will be published online, it will be donate to the Church and w
     * [Accessability Test](#accessability-test)
     * [Lighthouse](#lighthouse)
     * [Spellcheck](#spellcheck)
-    * [Own testing and debugging](#own-testing-and-debugging)
+    * [Fixed bugs](#fixed-bugs)
+    * 
 * [Credits](#credits)
     * [Code Used](#code-used)
     * [Video](#video)
@@ -38,9 +39,9 @@ Once the website will be published online, it will be donate to the Church and w
 * [About Author](#about-author)
 ## Scope
 Website was created with 3 main Objectives:
-1. Inform the current community about Church Schedule, Events and make available usefull media content
-2. Become a tool of support for new visitors with a desire to connect and become part of the community
-3. Establish an online presence for the Orthodox Romanian Church in the Kilkenny and Waterford areas
+1. Inform the current community about Church Schedule, Events and make available usefull media content.
+2. Become a tool of support for new visitors with a desire to connect and become part of the community.
+3. Establish an online presence for the Orthodox Romanian Church in the Kilkenny and Waterford areas.
 ##  User Experience
 #### First Time Visitor Target:
 1. Provide a source of information and support on Orthodoxy related topics.
@@ -53,6 +54,10 @@ Website was created with 3 main Objectives:
 2. Find out more about upcoming events.
 3. Continue to consume media targeted to support users religious journey.
 4. Provide media content from comunities events.
+
+#### Frequent Visitors Target:
+1. Use the website as the official tool of information about the community and the church.
+
 ## Deployment
 
 Deployment of the website was used with GitHub Pages support.
@@ -79,29 +84,29 @@ To deploy using GitHub pages:
 
 
 #### IDE:
-1. GitHub: mainly to deploy workspace, website and store database, but used to write small pieces of code and deploy the 404 page
-2. CodeAnywhere: support to write code and deploy via git to GitHub
-3. GitPod: support to write code and deploy via git to GitHub
+1. GitHub: mainly to deploy workspace, website and store database, but used to write small pieces of code and deploy the 404 page.
+2. CodeAnywhere: support to write code and deploy via git to GitHub.
+3. GitPod: support to write code and deploy via git to GitHub.
 
 #### Other:
-1. Pexels: support with photo data
-2. Font Awesome: support with icon for logo and social media icon
-3. Google Font: support with font used for the website text
-4. Youtube: video`s in media section deployed as iframes with Youtube code
-5. Google Maps: maps in contact section deployed as iframes with Google Maps code
-6. Balsamiq: support with wireframe creation
-7. Google DevTools: support with CSS styling, troubleshouting and responsive design development
-8. Lighthouse: performance testing 
-9. W3C Spell Checker: spelling checks
-10. WAVE Web Accessibility Evaluation Tools: for accessibility evaluation
-11. CSS Validation Service: for CSS code evaluation and troubleshouting
-12. W3C Markup Validation Service: for HTML code evaluation and troubleshouting
+1. Pexels: support with photo data.
+2. Font Awesome: support with icon for logo and social media icon.
+3. Google Font: support with font used for the website text.
+4. Youtube: video`s in media section deployed as iframes with Youtube code.
+5. Google Maps: maps in contact section deployed as iframes with Google Maps code.
+6. Balsamiq: support with wireframe creation.
+7. Google DevTools: support with CSS styling, troubleshouting and responsive design development.
+8. Lighthouse: performance testing .
+9. W3C Spell Checker: spelling checks.
+10. WAVE Web Accessibility Evaluation Tools: for accessibility evaluation.
+11. CSS Validation Service: for CSS code evaluation and troubleshouting.
+12. W3C Markup Validation Service: for HTML code evaluation and troubleshouting.
 ## Design
 The general design idea was to: 
-* Maintain a clean direction with clearly identifiable and accesible areas even when resizing into small screen areas; this was considered in order to address also the different age profiles of the audience
-* Inspire a religious theme through proper use of fonts, colors and images
-* High impactfull hero image in order to highlight the size of community and the extremly beautifull enviorement used for service
-* Use a cusomizeble design proposal that can resize into smaller sizes without creating a high level of complexity
+* Maintain a clean direction with clearly identifiable and accesible areas even when resizing into small screen areas; this was considered in order to address also the different age profiles of the audience.
+* Inspire a religious theme through proper use of fonts, colors and images.
+* High impactfull hero image in order to highlight the size of community and the extremly beautifull enviorement used for service.
+* Use a cusomizeble design proposal that can resize into smaller sizes without creating a high level of complexity.
 
 #### Wireframes
 In order to support development, wireframes where created for each individual page in Balsamiq.
@@ -121,12 +126,12 @@ In order to support development, wireframes where created for each individual pa
 
 #### Theme
 Theme of the website was thought in a way that it would address:
-* The religious aspect through use of neutral, clear and clean fonts and style and by using strong religious themed photos and other media content
-* Through use of the underline on the menu items, to push also the Romanian National thematic direction
-* Clear and clean design in order to address all targeted users
-* Provide a message easy to understand and easy to access
-* Highlight key elements: schedule, events, location, media content, facebook link
-* Provide a direction that is easy to be followed and implemented in various screen sizes/devices
+* The religious aspect through use of neutral, clear and clean fonts and style and by using strong religious themed photos and other media content.
+* Through use of the underline on the menu items, to push also the Romanian National thematic direction.
+* Clear and clean design in order to address all targeted users.
+* Provide a message easy to understand and easy to access.
+* Highlight key elements: schedule, events, location, media content, facebook link.
+* Provide a direction that is easy to be followed and implemented in various screen sizes/devices.
 
 #### Color Selection
 Color selection done in order to be aligned with the thematic of the website and to provide sobriety while maintaining clarity and accessability for all.
@@ -145,6 +150,49 @@ Other images in about page where taken from [Pexels](https://www.pexels.com/) wh
 
 #### Features
 
+* GENERAL:
+Website contains 6 pages from which 4 are visible and accessabile from main menu and another 2 are a reaction to a users action.
+Menu and Header strucutre remains the same but changes in design with different screen size resolutions.
+I`ve created 2 menus:
+    * one that is used for resolution above 600px, which is the standard menu.
+    * one that is used for resolutions under 600px which transforms the HOME menu setion into a font-awesome house logo.
+On both menus, the text data changes to same color as underline when hoverd over.
+![Alt text](/readme/other/header-resizing.jpg)
+
+Footer information remains the same across all pages and screen resolutions and have a fixed position containing a facebook link for communities facebook page.
+![Alt text](/readme/other/footer.jpg)
+
+
+* HOME: 
+Contains 4 main section:
+    * Hero image with a text section on a blured background linked to the About section.
+    * Schedule Schedule and Events which share the same height and sit side by side under Hero image; intention is that the website will allow to build additional blockers in the same format; porpouse of this 2 sections is to inform on schedule activities.
+    * Quote of the month section.
+
+* ABOUT:
+Contains 2 main sections:
+    * Information about the community with links to different sections of the website: contact, schedule, location.
+    * Image section which in desktop mode is positioned on right and in mobile moves to bottom of the page above footer.
+
+* MEDIA:
+Contains 3 main section:
+    * A timeline feature that allows for the user to select a specific month and the webpage will move to the media info for that particluar month; position of timeline remains fixed and for resultions under 600px disapears completly due to realestate availability.
+![Alt text](/readme/other/timeline-feature.jpg)
+    * Description section that details the objective of the page.
+    * Media data strucured by month and connected to the timeline feature; each media data contains a description of the presented content; media data used was implemented throguh iframe functionality  based on Youtube created links;
+
+* CONTACT:
+Contains 2 main sections:
+    * Contact form which collects the main user contact data(first and last time as well as the email data), allows the user to select his interest areas on which he wants to be notified on, and the submit button; submit button changes color once hovered over.
+    * Maps for Church`s 2 locations which allows the user, if opened on a mobile device, to open in Google Maps and navigate; map data was implemented through iframe functionality based on Google Maps created links
+
+* FORM REDIRECT:
+Page visible only when submit button in form page is pushed. Page acts as a temporary redirect page that will confirm form was submitted and notify user will be redirected to main page in 10 seconds.
+
+* 404 PAGE:
+Page designed in order to provide 404 customized message and experience.
+
+
 #### Accessability
 
 #### Display size optimization
@@ -155,7 +203,7 @@ Other images in about page where taken from [Pexels](https://www.pexels.com/) wh
 #### Accessability Test
 #### Lighthouse
 #### Spellcheck
-#### Own testing and debugging
+#### Fixed bugs
 
 ## Credits
 #### Code Used:
