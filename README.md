@@ -135,6 +135,9 @@ A splash of color was added by the introduction of the menu decorations represen
 
 
 #### Font and text style
+Text and font used are consistent across the website with variances in regards of style and size.
+Font used was taken out of Google Fonts and is name bitter:
+![Alt text](/readme/other/bitter-font.jpg)
 
 #### Imagery
 
