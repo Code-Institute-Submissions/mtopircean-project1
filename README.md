@@ -222,21 +222,17 @@ Please see bellow a list and the main areas of impact when implemented:
 ## Testing and Validation
 The website was tested for funtionality and design using the main used browsers: Mozilla, Chrome, Edge, Safari.
 There where also other external tools listed in the section Technologies that where used to ensure correct website 
- and code behaviour.
+and code behaviour.
+A formator was also used in order to clean and arrange code.
 
 #### HTML
-Tested using W3C validator.
-* HOME:
+Tested all pages using W3C validator.
+Several errors identified in all pages and corrections made like for ex:
+* missing lang attribute and doctype in 404 page
+* duplications of containers or double used closing container commands
 
-* ABOUT:
-
-* MEDIA:
-
-* CONTACT:
-
-* FORM REDIRECT:
-
-* 404 PAGE:
+Issues identified and corrected until bellow pass mark was reached:
+![Alt text](/readme/testing/html-test.jpg)
 
 #### CSS
 #### Accessability Test
