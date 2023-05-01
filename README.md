@@ -338,7 +338,7 @@ Video sources where taken from YouTube:
 * Contact page photos: sourced from [Pexels](https://www.pexels.com/)
 
 #### Other
-* Deployment instructions in GitHub copied from kera-cudmore / earth-day-hackathon-2022 readme file.
+* Deployment instructions in GitHub copied from kera-cudmore / earth-day-hackathon-2022 and Bully-Book-Club readme file.
 
 * Inspiration on Readme structure taken from  kera-cudmore / earth-day-hackathon-2022 readme file, testing file.
 
