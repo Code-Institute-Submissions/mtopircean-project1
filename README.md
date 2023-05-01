@@ -13,7 +13,7 @@ Once the website will be published online, it will be donate to the Church and w
     * [How to Fork](#how-to-fork)
     * [How to Clone](#how-to-clone)
 * [Technologies](#technologies)
-    * [Programming Languages](#programing-languages)
+    * [Programming Languages](#programming-languages)
     * [IDE](#ide)
     * [Other](#other)
 * [Design](#design)
