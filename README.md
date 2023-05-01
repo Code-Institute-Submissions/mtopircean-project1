@@ -235,6 +235,13 @@ Issues identified and corrected until bellow pass mark was reached:
 ![Alt text](/readme/testing/html-test.jpg)
 
 #### CSS
+Tested CSS code using W3C validation service.
+Several error identified, majority around using commands not valid or doubled: background-color same as border color for ex.
+
+Issues are fixed and corrected, the only item still open is the imported style sheet:
+![Alt text](/readme/testing/css-validator.jpg)
+
+
 #### Accessability Test
 #### Lighthouse
 #### Spellcheck
