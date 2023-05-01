@@ -9,7 +9,7 @@ Once the website will be published online, it will be donate to the Church and w
 ## CONTENT
 * [Scope](#scope)
 * [User Experience](#user-experience)
-* [Deployment](#deployment)
+* [Deployment](#deployment-and-local-development)
 * [Technologies](#technologies)
     * [Programing Languages](#programing-languages)
     * [IDE](#ide)
@@ -58,22 +58,38 @@ Website was created with 3 main Objectives:
 #### Frequent Visitors Target:
 1. Use the website as the official tool of information about the community and the church.
 
-## Deployment
+## Deployment and Local Development
 
 Deployment of the website was used with GitHub Pages support.
 Deployed website can be visited at the [link](https://mtopircean.github.io/project1/)
 
+#### How to Deploy:
 To deploy using GitHub pages:
 
-* Login or Sign Up to GitHub.
-* Open the project repository.
-* Click on "Settings" on the navigation bar under the repository title.
-* Click on "Pages" in the left hand navigation panel.
-* Under "Source", choose which branch to deploy. This should be Main for newer repositories (older repositories may still use Master).
-* Choose which folder to deploy from, usually "/root".
-* Click "Save", then wait for it to be deployed. It can take some time for the page to be fully * * deployed.
-* Your URL will be displayed above "Source".
+1. Login or Sign Up to GitHub.
+2. Open the project repository.
+3. Click on "Settings" on the navigation bar under the repository title.
+4. Click on "Pages" in the left hand navigation panel.
+5. Under "Source", choose which branch to deploy. This should be Main for newer repositories (older repositories may still use Master).
+6. Choose which folder to deploy from, usually "/root".
+7. Click "Save", then wait for it to be deployed. It can take some time for the page to be fully * * deployed.
+8. Your URL will be displayed above "Source".
 
+#### How to Fork
+To fork the repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, mtopircean/project1
+3. Click the Fork button in the top right corner.
+
+#### How to Clone
+To clone the repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, mtopircean/project1
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 
 ## Technologies
