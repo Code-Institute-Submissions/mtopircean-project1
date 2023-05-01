@@ -140,6 +140,8 @@ Font used was taken out of Google Fonts and is name bitter:
 ![Alt text](/readme/other/bitter-font.jpg)
 
 #### Imagery
+Hero image was taken by a local photographer called [Zamfir Constantin](https://www.zamfirphoto.com/). Image was shared by him in order to support building communities website.
+Other images in about page where taken from [Pexels](https://www.pexels.com/) which offer a free for commercial use collection of photography.
 
 #### Features
 
