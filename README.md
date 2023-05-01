@@ -243,6 +243,14 @@ Issues are fixed and corrected, the only item still open is the imported style s
 
 
 #### Accessability Test
+Accesibility test was done using Wave Report generator for each of the pages.
+There where several issues identified which where corrected, mostly due to font color used on Menu. Media and About page initialy used a white text color on a yellow background. This was corrected with the final version currently in place and errors fixed.
+
+There are 3 errors still in place:
+* 2 impacting all pages due to icons being used with a link to a page associated. Since the icons don`t have text, errors where not fixed but they should not impact user experience as very suggestive.
+* 1 error impacting the form redirect page(page after submission) and this is due to the redirect function of the page.
+![Alt text](/readme/testing/accessability-test.jpg)
+
 #### Lighthouse
 #### Spellcheck
 #### Fixed bugs
