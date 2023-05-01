@@ -178,6 +178,7 @@ Contains 2 main sections:
 Contains 3 main section:
     * A timeline feature that allows for the user to select a specific month and the webpage will move to the media info for that particluar month; position of timeline remains fixed and for resultions under 600px disapears completly due to realestate availability.
 ![Alt text](/readme/other/timeline-feature.jpg)
+
     * Description section that details the objective of the page.
     * Media data strucured by month and connected to the timeline feature; each media data contains a description of the presented content; media data used was implemented throguh iframe functionality  based on Youtube created links;
 
