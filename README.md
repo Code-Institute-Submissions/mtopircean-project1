@@ -32,8 +32,8 @@ Once the website will be published online, it will be donate to the Church and w
     * [Accessability Test](#accessability-test)
     * [Lighthouse](#lighthouse)
     * [Spellcheck](#spellcheck)
+    * [Local functionality tests](#local-functionality-tests)
     * [Fixed bugs](#fixed-bugs)
-    * 
 * [Credits](#credits)
     * [Code Used](#code-used)
     * [Video](#video)
@@ -310,6 +310,8 @@ List of errors not corrected:
 "xfab
 
 Code was also checked using the Word Autocorrect function.
+
+#### Local functionality tests
 
 #### Fixed bugs
 
