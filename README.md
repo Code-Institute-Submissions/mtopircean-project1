@@ -97,14 +97,27 @@ To deploy using GitHub pages:
 11. CSS Validation Service: for CSS code evaluation and troubleshouting
 12. W3C Markup Validation Service: for HTML code evaluation and troubleshouting
 ## Design
+The general design idea was to: 
+* Maintain a clean direction with clearly identifiable and accesible areas even when resizing into small screen areas; this was considered in order to address also the different age profiles of the audience
+* Inspire a religious theme through proper use of fonts, colors and images
+* High impactfull hero image in order to highlight the size of community and the extremly beautifull enviorement used for service
+* Use a cusomizeble design proposal that can resize into smaller sizes without creating a high level of complexity
 
 #### Wireframes
 In order to support development, wireframes where created for each individual page in Balsamiq.
 
-Home:
-About:
-Media:
-Contact:
+* Home:
+![Alt text](/readme/wireframe/home-page-wf.jpg)
+* About:
+![Alt text](/readme/wireframe/about-us-page-wf.jpg)
+* Media:
+![Alt text](/readme/wireframe/media-page-wf.jpg)
+* Contact:
+![Alt text](/readme/wireframe/contact-page-wf.jpg)
+* Form submit redirect page:
+![Alt text](/readme/wireframe/redirect-page-wf.jpg)
+* 404 Customized page:
+![Alt text](/readme/wireframe/404-page-wf.jpg)
 
 #### Theme
 
