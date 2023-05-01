@@ -109,6 +109,10 @@ Contact:
 #### Theme
 
 #### Color Selection
+Color selection done in order to be aligned with the thematic of the website and to provide sobriety while maintaining clarity and accessability for all.
+A splash of color was added by the introduction of the menu decorations representing the Romanian national colors. Choice was taken in order to again support the websites thematic.
+![Alt text](/readme/other/color-pallete.jpg)
+
 
 #### Font and text style
 
