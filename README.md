@@ -277,7 +277,7 @@ There are 3 errors still in place:
 Tested all pages with good overall perfomance results.
 
 * Home desktop
-![Alt text](/readme/testing/home-desktop-lighthouse.jpg)
+|![Alt text](/readme/testing/home-desktop-lighthouse.jpg)
 * Home mobile 
 ![Alt text](/readme/testing/home-mobile-lighthouse.jpg)
 * About desktop
