@@ -120,6 +120,13 @@ In order to support development, wireframes where created for each individual pa
 ![Alt text](/readme/wireframe/404-page-wf.jpg)
 
 #### Theme
+Theme of the website was thought in a way that it would address:
+* The religious aspect through use of neutral, clear and clean fonts and style and by using strong religious themed photos and other media content
+* Through use of the underline on the menu items, to push also the Romanian National thematic direction
+* Clear and clean design in order to address all targeted users
+* Provide a message easy to understand and easy to access
+* Highlight key elements: schedule, events, location, media content, facebook link
+* Provide a direction that is easy to be followed and implemented in various screen sizes/devices
 
 #### Color Selection
 Color selection done in order to be aligned with the thematic of the website and to provide sobriety while maintaining clarity and accessability for all.
