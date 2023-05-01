@@ -402,5 +402,5 @@ Phone: +353857642212
 
 Slack: Marius Topircean
 
-Github: mtopircean
+Github: mtopircean  
 Linkedin: [Marius Topircean](https://www.linkedin.com/in/marius-t-7b5592124)
