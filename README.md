@@ -291,6 +291,33 @@ Code was also checked using the Word Autocorrect function.
 
 #### Fixed bugs
 
+Majority of bugs and error where addressed when dealing with the development of each individual section and where considered a step in completion of different sections.
+
+* HOME Page quote section not showing: resized the margins of the section.
+```#quote {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-style: italic;
+    font-size: 1rem;
+}```
+
+* MEDIA Page footer rising on top of the last video: resized margins of the video sections in order to add a margin at the bottom of the page
+```#all-video {
+    float: right;
+    width: 84%;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}```
+
+* MEDIA Page timeline error when clicking a specific month not visible in the video section, causing an image flicker: error fixed by removing duplicate code added by mistake during development.
+
+* HTML W3C validator testing highlighting error "The frameborder attribute on the iframe element is obsolete": Error fixed based on guideline from Benji_5P_cohort_lead on removing the frameborder element from iframe.
+
+No other known bugs or errors.
+
 ## Credits
 #### Code Used:
 Youtube and Google Maps iframe code used for Maps in Contact page and Videos in Media page.
