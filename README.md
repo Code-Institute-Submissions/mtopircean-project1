@@ -276,10 +276,8 @@ There are 3 errors still in place:
 #### Lighthouse
 Tested all pages with good overall perfomance results.
 
-* Home desktop:
-![Alt text](/readme/testing/home-desktop-lighthouse.jpg)
-* Home mobile
-![Alt text](/readme/testing/home-mobile-lighthouse.jpg)
+* Home desktop: ![Alt text](/readme/testing/home-desktop-lighthouse.jpg)
+* Home mobile ![Alt text](/readme/testing/home-mobile-lighthouse.jpg)
 * About desktop:
 ![Alt text](/readme/testing/about-desktop-lighthouse.jpg)
 * About mobile
