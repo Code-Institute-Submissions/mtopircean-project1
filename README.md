@@ -245,18 +245,6 @@ Issues are fixed and corrected, the only item still open is the imported style s
 #### Accessability Test
 #### Lighthouse
 #### Spellcheck
-* HOME:
-
-* ABOUT:
-
-* MEDIA:
-
-* CONTACT:
-
-* FORM REDIRECT:
-
-* 404 PAGE:
-
 #### Fixed bugs
 
 ## Credits
