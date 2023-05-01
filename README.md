@@ -253,6 +253,42 @@ There are 3 errors still in place:
 
 #### Lighthouse
 #### Spellcheck
+All webpages checked for spellcheck error using the W3C Spellchecker.
+The only errors not fixed are due to specific wording.
+List of errors not corrected:
+"Kilkenny"
+"NEPSIS"
+"Nepsis"
+"Vitovnica"
+"th"
+"Aegina"
+"Chryssavgis"
+"Farmington"
+"Gaitanos"
+"IFRAME"
+"Kallistos"
+"Kilkenny"
+"Nectarios"
+"Parthene"
+"Petros"
+"Theotokarion"
+"Truebenbach"
+"doron"
+"paraliturgical"
+"IFRAME" - Not showing on website
+"Kilkenny"
+"Lisduggan"
+"bd"
+"bdb"
+"dbcaacda"
+"fd"
+"sLisduggan"
+"sSaint"
+"sie"
+"xfab
+
+Code was also checked using the Word Autocorrect function.
+
 #### Fixed bugs
 
 ## Credits
