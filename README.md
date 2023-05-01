@@ -276,25 +276,25 @@ There are 3 errors still in place:
 #### Lighthouse
 Tested all pages with good overall perfomance results.
 
-* Home desktop
-|![Alt text](/readme/testing/home-desktop-lighthouse.jpg)
-* Home mobile 
+* Home desktop  
+![Alt text](/readme/testing/home-desktop-lighthouse.jpg)
+* Home mobile  
 ![Alt text](/readme/testing/home-mobile-lighthouse.jpg)
-* About desktop
+* About desktop  
 ![Alt text](/readme/testing/about-desktop-lighthouse.jpg)
-* About mobile
+* About mobile  
 ![Alt text](/readme/testing/about-mobile-lighthouse.jpg)
-* Media desktop
+* Media desktop  
 ![Alt text](/readme/testing/media-desktop-lighthouse.jpg)
-* Media mobile
+* Media mobile  
 ![Alt text](/readme/testing/media-mobile-lighthouse.jpg)
-* Contact desktop
+* Contact desktop  
 ![Alt text](/readme/testing/contact-desktop-lighthouse.jpg)
-* Contact mobile
+* Contact mobile  
 ![Alt text](/readme/testing/contact-mobile-lighthouse.jpg)
-* 404 desktop
+* 404 desktop  
 ![Alt text](/readme/testing/404-desktop-lighthouse.jpg)
-* 404 mobile
+* 404 mobile  
 ![Alt text](/readme/testing/404-mobile-lighthouse.jpg)
 
 #### Spellcheck
