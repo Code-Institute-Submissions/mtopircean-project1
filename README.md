@@ -45,7 +45,10 @@ Website was created with 3 main Objectives:
 1. Inform the current community about Church Schedule, Events and make available usefull media content.
 2. Become a tool of support for new visitors with a desire to connect and become part of the community.
 3. Establish an online presence for the Orthodox Romanian Church in the Kilkenny and Waterford areas.
+
+All was considered to be deployed in a fully functioning manner for both desktop and mobile use.
 ##  User Experience
+
 #### First Time Visitor Target:
 1. Provide a source of information and support on Orthodoxy related topics.
 2. Enable a point of connection with the community by providing updated information on schedule and events as well as allowing the user to connect with the community via facebook and a contact form.
@@ -82,14 +85,14 @@ To deploy using GitHub pages:
 To fork the repository:
 
 1. Log in (or sign up) to Github.
-2. Go to the repository for this project, mtopircean/project1
+2. Go to the repository for this project, [mtopircean/project1](https://github.com/mtopircean/project1)
 3. Click the Fork button in the top right corner.
 
 #### How to Clone
 To clone the repository:
 
 1. Log in (or sign up) to GitHub.
-2. Go to the repository for this project, mtopircean/project1
+2. Go to the repository for this project, [mtopircean/project1](https://github.com/mtopircean/project1)
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
@@ -357,9 +360,8 @@ Video sources where taken from YouTube:
 * Contact page photos: sourced from [Pexels](https://www.pexels.com/)
 
 #### Other
-* Deployment instructions in GitHub copied from kera-cudmore / earth-day-hackathon-2022 and Bully-Book-Club readme file.
-
-* Inspiration on Readme structure taken from  kera-cudmore / earth-day-hackathon-2022 readme file, testing file.
+* Deployment instructions in GitHub copied from kera-cudmore different repo`s and following the article written by her on how to write a readme.
+* Inspiration on Readme structure taken from different repo`s and following the article written by her on how to write a readme..
 
 
 ## About Author
