@@ -210,14 +210,12 @@ Another area I was mindfull of was that all of the consideration above where not
 Several size options where used when developing the responsive design.
 Please see bellow a list and the main areas of impact when implemented:
 
-* from 1200px wide and down
-* from 954px wide and down
-* from 800px wide and down
-* from 600px wide and down:
-* with first major structural change representing the removal of the timeline section from the media page
-* introduction of a restyled navigation menu
-* from 425px wide and down
-* from 361px wide and down
+* from 1200px wide and down: Mostly reszing of different elements but without major structural changes.
+* from 954px wide and down: Elements moved into a stacked format on all pages in order to display correctly, one elements per full page withth. The other change is the resizing and positioning of Menu under Logo.
+* from 800px wide and down: Mostly reszing of different elements but without other major structural changes.
+* from 600px wide and down: Home menu replaced with font-awesome home icon by hidding the standard menu and moving to the second variant optimized for mobile. The other major change is the removal of the timeline feature in the media page, change done due to reduced realestate on lower size devices.
+* from 425px wide and down: Mostly reszing of different elements but without other major structural changes.
+* min resolution tested was for Iphone SE, but verified that resolutions under la Galaxy Fold still behave well with major change being a shift in menu structure to a stacked version.
 
 
 
@@ -227,6 +225,18 @@ Please see bellow a list and the main areas of impact when implemented:
 #### Accessability Test
 #### Lighthouse
 #### Spellcheck
+* HOME:
+
+* ABOUT:
+
+* MEDIA:
+
+* CONTACT:
+
+* FORM REDIRECT:
+
+* 404 PAGE:
+
 #### Fixed bugs
 
 ## Credits
