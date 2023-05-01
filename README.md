@@ -1,4 +1,3 @@
-
 # Romanian Orthodox Church Kilkenny and Waterford webpage
 
 The website was created as support for the Romanian Orthodox Community in Kilkenny, Waterford and surrounding areas to connect with the members of the community, inform them about the Church`s activity, schedule, location and events.
@@ -14,22 +13,22 @@ Once the website will be published online, it will be donate to the Church and w
     * [How to Fork](#how-to-fork)
     * [How to Clone](#how-to-clone)
 * [Technologies](#technologies)
-    * [Programing Languages](#programing-languages)
+    * [Programming Languages](#programing-languages)
     * [IDE](#ide)
     * [Other](#other)
 * [Design](#design)
     * [Wireframes](#wireframes)
     * [Theme](#theme)
-    * [Color Selection](#color-selection)
+    * [Colour Selection](#colour-selection)
     * [Font and text style](#font-and-text-style)
     * [Imagery](#imagery)
     * [Features](#features)
-    * [Accessability](#accessability)
+    * [Accessibility](#accessibility)
     * [Display size optimization](#display-size-optimization)
 * [Testing and Validation](#testing-and-validation)
     * [HTML](#html)
     * [CSS](#css)
-    * [Accessability Test](#accessability-test)
+    * [Accessibility Test](#accessibility-test)
     * [Lighthouse](#lighthouse)
     * [Spellcheck](#spellcheck)
     * [Local functionality tests](#local-functionality-tests)
@@ -42,7 +41,7 @@ Once the website will be published online, it will be donate to the Church and w
 * [About Author](#about-author)
 ## Scope
 Website was created with 3 main Objectives:
-1. Inform the current community about Church Schedule, Events and make available usefull media content.
+1. Inform the current community about Church Schedule, Events and make available useful media content.
 2. Become a tool of support for new visitors with a desire to connect and become part of the community.
 3. Establish an online presence for the Orthodox Romanian Church in the Kilkenny and Waterford areas.
 
@@ -51,7 +50,7 @@ All was considered to be deployed in a fully functioning manner for both desktop
 
 #### First Time Visitor Target:
 1. Provide a source of information and support on Orthodoxy related topics.
-2. Enable a point of connection with the community by providing updated information on schedule and events as well as allowing the user to connect with the community via facebook and a contact form.
+2. Enable a point of connection with the community by providing updated information on schedule and events as well as allowing the user to connect with the community via Facebook and a contact form.
 3. Provide location instructions for Church`s 2 main location.
 
 
@@ -59,7 +58,7 @@ All was considered to be deployed in a fully functioning manner for both desktop
 1. Continue to be informed about Service-Schedule.
 2. Find out more about upcoming events.
 3. Continue to consume media targeted to support users religious journey.
-4. Provide media content from comunities events.
+4. Provide media content from community events.
 
 #### Frequent Visitors Target:
 1. Use the website as the official tool of information about the community and the church.
@@ -100,7 +99,7 @@ To clone the repository:
 
 ## Technologies
 
-#### Programing Languages:
+#### Programming Languages:
 1. HTML
 2. CSS
 
@@ -114,21 +113,21 @@ To clone the repository:
 1. Pexels: support with photo data.
 2. Font Awesome: support with icon for logo and social media icon.
 3. Google Font: support with font used for the website text.
-4. Youtube: video`s in media section deployed as iframes with Youtube code.
+4. YouTube: video`s in media section deployed as iframes with YouTube code.
 5. Google Maps: maps in contact section deployed as iframes with Google Maps code.
 6. Balsamiq: support with wireframe creation.
-7. Google DevTools: support with CSS styling, troubleshouting and responsive design development.
+7. Google DevTools: support with CSS styling, troubleshooting and responsive design development.
 8. Lighthouse: performance testing .
 9. W3C Spell Checker: spelling checks.
 10. WAVE Web Accessibility Evaluation Tools: for accessibility evaluation.
-11. CSS Validation Service: for CSS code evaluation and troubleshouting.
-12. W3C Markup Validation Service: for HTML code evaluation and troubleshouting.
+11. CSS Validation Service: for CSS code evaluation and troubleshooting.
+12. W3C Markup Validation Service: for HTML code evaluation and troubleshooting.
 ## Design
 The general design idea was to: 
-* Maintain a clean direction with clearly identifiable and accesible areas even when resizing into small screen areas; this was considered in order to address also the different age profiles of the audience.
-* Inspire a religious theme through proper use of fonts, colors and images.
-* High impactfull hero image in order to highlight the size of community and the extremly beautifull enviorement used for service.
-* Use a cusomizeble design proposal that can resize into smaller sizes without creating a high level of complexity.
+* Maintain a clean direction with clearly identifiable and accessible areas even when resizing into small screen areas; this was considered in order to address also the different age profiles of the audience.
+* Inspire a religious theme through proper use of fonts, colours and images.
+* High impactful hero image in order to highlight the size of community and the extremely beautiful environment used for service.
+* Use a cusomizable design proposal that can resize into smaller sizes without creating a high level of complexity.
 
 #### Wireframes
 In order to support development, wireframes where created for each individual page in Balsamiq.
@@ -152,13 +151,13 @@ Theme of the website was thought in a way that it would address:
 * Through use of the underline on the menu items, to push also the Romanian National thematic direction.
 * Clear and clean design in order to address all targeted users.
 * Provide a message easy to understand and easy to access.
-* Highlight key elements: schedule, events, location, media content, facebook link.
+* Highlight key elements: schedule, events, location, media content, Facebook link.
 * Provide a direction that is easy to be followed and implemented in various screen sizes/devices.
 
-#### Color Selection
-Color selection done in order to be aligned with the thematic of the website and to provide sobriety while maintaining clarity and accessability for all.
-A splash of color was added by the introduction of the menu decorations representing the Romanian national colors. Choice was taken in order to again support the websites thematic.
-![Alt text](/readme/other/color-pallete.jpg)
+#### Colour Selection
+Colour selection done in order to be aligned with the thematic of the website and to provide sobriety while maintaining clarity and accessibility for all.
+A splash of colour was added by the introduction of the menu decorations representing the Romanian national colours. Choice was taken in order to again support the websites thematic.
+![Alt text](/readme/other/colour-pallete.jpg)
 
 
 #### Font and text style
@@ -173,22 +172,22 @@ Other images in about page where taken from [Pexels](https://www.pexels.com/) wh
 #### Features
 
 * GENERAL:
-Website contains 6 pages from which 4 are visible and accessabile from main menu and another 2 are a reaction to a users action.
-Menu and Header strucutre remains the same but changes in design with different screen size resolutions.
+Website contains 6 pages from which 4 are visible and accessible from main menu and another 2 are a reaction to a users action.
+Menu and Header structure remains the same but changes in design with different screen size resolutions.
 I`ve created 2 menus:
     * one that is used for resolution above 600px, which is the standard menu.
-    * one that is used for resolutions under 600px which transforms the HOME menu setion into a font-awesome house logo.
-On both menus, the text data changes to same color as underline when hoverd over.
+    * one that is used for resolutions under 600px which transforms the HOME menu section into a font-awesome house logo.
+On both menus, the text data changes to same colour as underline when hovered over.
 ![Alt text](/readme/other/header-resizing.jpg)
 
-Footer information remains the same across all pages and screen resolutions and have a fixed position containing a facebook link for communities facebook page.
+Footer information remains the same across all pages and screen resolutions and have a fixed position containing a Facebook link for communities Facebook page.
 ![Alt text](/readme/other/footer.jpg)
 
 
 * HOME: 
 Contains 4 main section:
     * Hero image with a text section on a blured background linked to the About section.
-    * Schedule Schedule and Events which share the same height and sit side by side under Hero image; intention is that the website will allow to build additional blockers in the same format; porpouse of this 2 sections is to inform on schedule activities.
+    * Schedule and Events which share the same height and sit side by side under Hero image; intention is that the website will allow to build additional blockers in the same format; purpose of this 2 sections is to inform on schedule activities.
     * Quote of the month section.
 
 * ABOUT:
@@ -198,15 +197,15 @@ Contains 2 main sections:
 
 * MEDIA:
 Contains 3 main section:
-    * A timeline feature that allows for the user to select a specific month and the webpage will move to the media info for that particluar month; position of timeline remains fixed and for resultions under 600px disapears completly due to realestate availability.
+    * A timeline feature that allows for the user to select a specific month and the webpage will move to the media info for that particular month; position of timeline remains fixed and for resoltions under 600px disappears completely due to real-estate availability.
 ![Alt text](/readme/other/timeline-feature.jpg)
 
     * Description section that details the objective of the page.
-    * Media data strucured by month and connected to the timeline feature; each media data contains a description of the presented content; media data used was implemented throguh iframe functionality  based on Youtube created links;
+    * Media data structured by month and connected to the timeline feature; each media data contains a description of the presented content; media data used was implemented with iframe functionality  based on YouTube created links;
 
 * CONTACT:
 Contains 2 main sections:
-    * Contact form which collects the main user contact data(first and last time as well as the email data), allows the user to select his interest areas on which he wants to be notified on, and the submit button; submit button changes color once hovered over.
+    * Contact form which collects the main user contact data(first and last time as well as the email data), allows the user to select his interest areas on which he wants to be notified on, and the submit button; submit button changes colour once hovered over.
     * Maps for Church`s 2 locations which allows the user, if opened on a mobile device, to open in Google Maps and navigate; map data was implemented through iframe functionality based on Google Maps created links
 
 * FORM REDIRECT:
@@ -216,15 +215,15 @@ Page visible only when submit button in form page is pushed. Page acts as a temp
 Page designed in order to provide 404 customized message and experience.
 
 
-#### Accessability
-From an accessability perspective, my goal was to create a clean website with data easy to read, positioned in a relevant maner in the page for the user.
+#### Accessibility
+From an accessibility perspective, my goal was to create a clean website with data easy to read, positioned in a relevant manner in the page for the user.
 I`ve achieved this by:
-* Writing semantinc HTML
+* Writing semantic HTML
 * Correct selection of text size and font in order to contrast well with the other elements of the page.
 * Selection of photos used based on high resolution, good contrast.
 * As majority of photos where implemented as background, titles where used in order to replace alt attributes
 
-Another area I was mindfull of was that all of the consideration above where not lost when using the website in lower resolutions.
+Another area I was mindful of was that all of the consideration above where not lost when using the website in lower resolutions.
 
 
 #### Display size optimization
@@ -232,17 +231,17 @@ Another area I was mindfull of was that all of the consideration above where not
 Several size options where used when developing the responsive design.
 Please see bellow a list and the main areas of impact when implemented:
 
-* from 1200px wide and down: Mostly reszing of different elements but without major structural changes.
+* from 1200px wide and down: Mostly resizing of different elements but without major structural changes.
 * from 954px wide and down: Elements moved into a stacked format on all pages in order to display correctly, one elements per full page withth. The other change is the resizing and positioning of Menu under Logo.
-* from 800px wide and down: Mostly reszing of different elements but without other major structural changes.
-* from 600px wide and down: Home menu replaced with font-awesome home icon by hidding the standard menu and moving to the second variant optimized for mobile. The other major change is the removal of the timeline feature in the media page, change done due to reduced realestate on lower size devices.
-* from 425px wide and down: Mostly reszing of different elements but without other major structural changes.
-* min resolution tested was for Iphone SE, but verified that resolutions under la Galaxy Fold still behave well with major change being a shift in menu structure to a stacked version.
+* from 800px wide and down: Mostly resizing of different elements but without other major structural changes.
+* from 600px wide and down: Home menu replaced with font-awesome home icon by hiding the standard menu and moving to the second variant optimized for mobile. The other major change is the removal of the timeline feature in the media page, change done due to reduced real-estate on lower size devices.
+* from 425px wide and down: Mostly resizing of different elements but without other major structural changes.
+* min resolution tested was for iPhone SE, but verified that resolutions under la Galaxy Fold still behave well with major change being a shift in menu structure to a stacked version.
 
 
 
 ## Testing and Validation
-The website was tested for funtionality and design using the main used browsers: Mozilla, Chrome, Edge, Safari.
+The website was tested for functionality and design using the main used browsers: Mozilla, Chrome, Edge.
 There where also other external tools listed in the section Technologies that where used to ensure correct website 
 and code behaviour.
 A formator was also used in order to clean and arrange code.
@@ -258,23 +257,23 @@ Issues identified and corrected until bellow pass mark was reached:
 
 #### CSS
 Tested CSS code using W3C validation service.
-Several error identified, majority around using commands not valid or doubled: background-color same as border color for ex.
+Several error identified, majority around using commands not valid or doubled: background-colour same as border colour for ex.
 
 Issues are fixed and corrected, the only item still open is the imported style sheet:
 ![Alt text](/readme/testing/css-validator.jpg)
 
 
-#### Accessability Test
-Accesibility test was done using Wave Report generator for each of the pages.
-There where several issues identified which where corrected, mostly due to font color used on Menu. Media and About page initialy used a white text color on a yellow background. This was corrected with the final version currently in place and errors fixed.
+#### Accessibility Test
+Accessibility test was done using Wave Report generator for each of the pages.
+There where several issues identified which where corrected, mostly due to font colour used on Menu. Media and About page initially used a white text colour on a yellow background. This was corrected with the final version currently in place and errors fixed.
 
 There are 3 errors still in place:
 * 2 impacting all pages due to icons being used with a link to a page associated. Since the icons don`t have text, errors where not fixed but they should not impact user experience as very suggestive.
 * 1 error impacting the form redirect page(page after submission) and this is due to the redirect function of the page.
-![Alt text](/readme/testing/accessability-test.jpg)
+![Alt text](/readme/testing/accessibility-test.jpg)
 
 #### Lighthouse
-Tested all pages with good overall perfomance results.
+Tested all pages with good overall performance results.
 
 * Home desktop  
 ![Alt text](/readme/testing/home-desktop-lighthouse.jpg)
@@ -373,15 +372,15 @@ No other known bugs or errors.
 
 ## Credits
 #### Code Used:
-Youtube and Google Maps iframe code used for Maps in Contact page and Videos in Media page.
+YouTube and Google Maps iframe code used for Maps in Contact page and Videos in Media page.
 Style on submit button in the contact form was inspired from the structure of the submit button from the Love Running Project.
 
 #### Video:
 Video sources where taken from YouTube:
 * April video: GreekOrthodoxChurch YouTube Channel
-* March video: Adoration of the Cross Youtube Channel
-* February video: Greek Orthodox Metropolis of Detroit Youtube Channel
-* January video: Matt Whitman Youtube Channel
+* March video: Adoration of the Cross YouTube Channel
+* February video: Greek Orthodox Metropolis of Detroit YouTube Channel
+* January video: Matt Whitman YouTube Channel
 #### Photography:
 * Home page Hero Image: credit to [Zamfir Constantin](https://www.zamfirphoto.com/)
 * Contact page photos: sourced from [Pexels](https://www.pexels.com/)
@@ -392,7 +391,7 @@ Video sources where taken from YouTube:
 
 
 ## About Author
-Marius Topircean is an aspiring webdeveloper who initiated it`s journey in coding with this first project.
+Marius Topircean is an aspiring software-developer who initiated it`s journey in coding with this first project.
 
 My contact details are:
 
@@ -403,4 +402,5 @@ Phone: +353857642212
 Slack: Marius Topircean
 
 Github: mtopircean  
+
 Linkedin: [Marius Topircean](https://www.linkedin.com/in/marius-t-7b5592124)

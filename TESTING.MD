@@ -2,15 +2,15 @@
 | ---| ---| ---| ---|
 | Homepage, About, Media, Contact, Form Redirect, 404 Page | Both Logo and Logo Text when clicked either reload or return the user to their homepage | Passed| None|
 | Homepage, About, Media, Contact, Form Redirect, 404 Page | Clicked on each individual menu icon and it reacts accordingly and redirects used to the relevant page | Passed| None|
-| Homepage, About, Media, Contact, Form Redirect, 404 Page | Bottom facebook link in footer when clicked opens the community facebook page in a new tab | Passed| None|
+| Homepage, About, Media, Contact, Form Redirect, 404 Page | Bottom Facebook link in footer when clicked opens the community Facebook page in a new tab | Passed| None|
 | Homepage, About, Media, Contact, Form Redirect, 404 Page | When scrolling through the page, footer area remains in fixed position not interfering with the page content | Passed| None|
 | Homepage, About, Media, Contact, Form Redirect, 404 Page | When reducing resolution under 600px is replacing current menu for new menu resized, with home icon replacing home tab | Passed| None|
-| Homepage, About, Media, Contact, Form Redirect, 404 Page | When reducing resolution under 600px currentmenu and logo move to central position and resize | Passed| None|
+| Homepage, About, Media, Contact, Form Redirect, 404 Page | When reducing resolution under 600px current menu and logo move to central position and resize | Passed| None|
 | About | Image and text are displayed correctly and not interfering with other elements | Passed| None|
 | About | When clicked "Our Locations" redirects user to contact page | Passed| None|
 | About | When clicked "Service-Schedule" redirects user to homepage | Passed| None|
 | About | When clicked "Contact details" redirects user to contact page | Passed| None|
-| About | When reducting resolution under 954px about text moves on top and the picture is changed and stacked at bottom of page | Passed| None|
+| About | When reducing resolution under 954px about text moves on top and the picture is changed and stacked at bottom of page | Passed| None|
 | Media | All elements are displayed correctly and not interfering with other elements | Passed| None|
 | Media | Timeline element remains fixed on the left side and does not move when scrolled | Passed| None|
 | Media | When clicking on an element of the timeline, page is scrolled to that specific month | Passed| None|
