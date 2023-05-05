@@ -387,7 +387,7 @@ Video sources where taken from YouTube:
 
 #### Other
 * Deployment instructions in GitHub copied from kera-cudmore different repo`s and following the article written by her on how to write a readme.
-* Inspiration on readme structure taken from different repo`s and following the article written by kera=cudmore on how to write a readme..
+* Inspiration on readme structure taken from kera-cudmore repo`s and following the article written by her on how to write a readme..
 
 
 ## About Author
