@@ -270,7 +270,7 @@ There where several issues identified which where corrected, mostly due to font 
 There are 3 errors still in place:
 * 2 impacting all pages due to icons being used with a link to a page associated. Since the icons don`t have text, errors where not fixed but they should not impact user experience as the icons used present very suggestive meaning, and generaly used in web-development.
 * 1 error impacting the form redirect page(page after submission) and this is due to the redirect function of the page.
-![Alt text](/readme/testing/accessibility-test.jpg)
+![Alt text](/readme/testing/accessability-test.jpg)
 
 #### Lighthouse
 Tested all pages with good overall performance results.
