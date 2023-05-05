@@ -335,7 +335,7 @@ Code was also checked using the Word autocorrect function.
 
 #### Local functionality tests
 All tests performed considered both desktop and mobile version.
-Link to full local functionality test: [TESTING.MD](https://github.com/mtopircean/project1/TESTING.MD)
+Link to full local functionality test: [TESTING.MD](https://github.com/mtopircean/project1/blob/main/TESTING.md)
 
 #### Fixed bugs
 
