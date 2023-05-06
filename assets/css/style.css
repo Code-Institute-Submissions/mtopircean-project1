@@ -625,10 +625,11 @@ input {
         text-align: center;
         margin-left: 0px;
     }
+
     #icon-logo {
         margin-left: 0px;
     }
-    
+
     /* About page */
     #text-about {
         float: none;
@@ -653,6 +654,7 @@ input {
         margin-left: 10px;
         margin-right: 10px;
     }
+
     /* Media page */
 
     #timeline-data {
@@ -853,6 +855,7 @@ input {
     .media-text-description {
         width: 100%;
     }
+
     #all-video {
         float: none;
         margin-left: 20px;
@@ -891,13 +894,11 @@ input {
         padding: 0px;
     }
 
-    #overall-main
-
-    #schedule-events {
+    #overall-main #schedule-events {
 
         margin-top: 20px;
         padding: 0px;
-    
+
     }
 
     #quote {
