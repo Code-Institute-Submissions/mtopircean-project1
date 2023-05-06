@@ -747,6 +747,10 @@ input {
         font-size: 0.7rem;
     }
 
+    /*Contact page*/
+    #form-and-text {
+        width: 85%;
+    }
 }
 
 /* For screen size from 600px wide and down */
@@ -827,7 +831,7 @@ input {
 
     /* Contact page */
     #maps {
-        width: 100%;
+        width: 90%;
         margin: 20px;
         float: left;
         font-size: 0.8rem;
@@ -836,16 +840,16 @@ input {
 
     #map-kilkenny {
         float: left;
-        width: 98%;
+        width: 100%;
     }
 
     #map-waterford {
         float: left;
-        width: 98%;
+        width: 100%;
     }
 
     #form-and-text {
-        width: 95%;
+        width: 85%;
         margin: 10px;
         line-height: 2.5;
         font-size: 0.8rem;
