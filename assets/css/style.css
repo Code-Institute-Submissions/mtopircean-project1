@@ -851,6 +851,10 @@ input {
     .media-text-description {
         width: 100%;
     }
+    #all-video {
+        float: none;
+        margin-left: 20px;
+    }
 }
 
 /* For screen size from 425px wide and down */
@@ -915,8 +919,8 @@ input {
     /* Media page */
 
     #all-video {
-        width: 95%;
-        margin-right: -10px;
+        width: 84%;
+        margin-right: 20px;
     }
 
     .media-text-description {
