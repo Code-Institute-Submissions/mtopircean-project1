@@ -368,6 +368,9 @@ Majority of bugs and errors where addressed when dealing with the development of
 
 * HTML W3C validator testing, highlighting error "The frameborder attribute on the iframe element is obsolete": Error fixed based on guideline from Benji_5P_cohort_lead on removing the frameborder element from iframe.
 
+*After a zoom in was spoted when opened website in desktop browser, it was identified that a padding on the header was creating a missalignment with other elements in other pages.
+Once corrected this triggered several adjustments that had to be done in order to realign elements. Corrections took place on all pages and touched mostly on size of elements, padding and margin values.
+
 No other known bugs or errors.
 
 ## Credits
