@@ -159,10 +159,11 @@ header {
 #service {
     text-align: center;
     width: 100%;
-    padding: 20px;
+    padding-top: 20px;
     justify-content: space-evenly;
     align-items: baseline;
     display: flex;
+    padding-bottom: 20px;
 }
 
 #service-table {
