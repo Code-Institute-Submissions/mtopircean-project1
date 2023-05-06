@@ -633,6 +633,7 @@ input {
         width: 100%;
         line-height: 1.5;
         font-size: 0.9rem;
+        padding: 0px;
     }
 
     #about-image {
@@ -643,8 +644,13 @@ input {
         height: 115px;
         border-radius: 2px;
         margin-right: 0px;
+        padding: 0px;
     }
 
+    #description-text {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
     /* Media page */
 
     #timeline-data {
