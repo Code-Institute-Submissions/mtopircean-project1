@@ -876,16 +876,23 @@ input {
     }
 
     #service {
-        padding: 10px;
+        padding: 0px;
     }
+
+    #overall-main
 
     #schedule-events {
 
-        margin: 12px;
+        margin-top: 20px;
+        padding: 0px;
+    
     }
 
     #quote {
-        padding: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 0px;
+        padding-right: 0px;
         width: 100%;
     }
 
