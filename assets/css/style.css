@@ -719,8 +719,8 @@ input {
     }
 
     #maps {
-        width: 100%;
-        margin: 20px;
+        width: 98%;
+        margin: 10px;
         float: left;
         font-size: 0.6rem;
         text-align: center;
@@ -832,12 +832,12 @@ input {
 
     #map-kilkenny {
         float: left;
-        width: 100%;
+        width: 98%;
     }
 
     #map-waterford {
         float: left;
-        width: 100%;
+        width: 98%;
     }
 
     #form-and-text {
