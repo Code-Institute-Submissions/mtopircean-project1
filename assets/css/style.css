@@ -445,7 +445,7 @@ input {
 }
 
 #redirect-icon {
-    width: 100%;
+    width: 80%;
     margin-top: 50px;
     margin-bottom: 300px;
     text-align: center;
@@ -457,7 +457,7 @@ input {
 
 /* Styling for 404 page */
 #error-message {
-    width: 100%;
+    width: 80%;
     margin-top: 200px;
     margin-bottom: 200px;
     text-align: center;
